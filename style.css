@@ -13,3 +13,4 @@ canvas{display:block;width:100%;max-width:400px;margin:auto;background:#09120d;b
 .scores{display:flex;justify-content:center;gap:2rem;font-size:1.2rem}.pad{text-align:center;margin-top:1rem}.pad button{width:56px;height:56px;margin:3px;font-size:1.3rem;border-radius:12px;border:0;background:#24402f;color:#fff}
 #restart{display:block;margin:auto}
 @media(max-width:760px){.menu{display:block}nav{display:none;width:100%;flex-direction:column}body.open nav{display:flex}.hero h1{font-size:1.8rem}}
+.ad-slot{max-width:1000px;margin:1rem auto;min-height:90px}.related ul{columns:2}
