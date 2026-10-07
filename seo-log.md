@@ -5,7 +5,7 @@ Audit: 12 static pages, mobile-friendly, fast (no images/frameworks, one small C
 
 Changes (highest EV first):
 1. **New tool: /venomous-or-not.html** — region selector (N. America, UK/Europe, Australia, South Asia, Africa, Latin America) comparing venomous species with harmless lookalikes, plus safety caveat. Why: high-intent, underserved by generic lists; linked from nav, safety, habitats, species, home; added to sitemap.
-2. **Species page**: added sortable-style comparison table (length, prey capture, range) and keyword-rich H1. Why: table/snippet eligibility for "biggest/longest snakes" type queries.
+2. **Species page**: added a comparison table (length, prey capture, range) and keyword-rich H1. Why: table/snippet eligibility for "biggest/longest snakes" type queries.
 3. **Structured data**: WebSite + Organization (home), Article (content pages), FAQPage (myths). All truthful.
 4. **Open Graph/Twitter**: og:type, og:site_name, twitter:card on all pages.
 5. **Titles**: rewrote home, anatomy, movement, safety titles for query match/CTR.
