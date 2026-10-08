@@ -47,6 +47,15 @@ Watch: once GSC data arrives, check which region queries show impressions; split
 - sitemap.xml (+2 URLs with lastmod), llms.txt Blog section, topic log in fact-reports.md.
 - Verified live: post, /blog/, species, sitemap, llms.txt all HTTP 200 (Bingbot UA); LLC footer present. IndexNow ping of all 16 sitemap URLs (nav changed sitewide) sent.
 
+## 2026-10-08 — Redesign, legal pages, games, teachers hub
+- Design: the pastel restyle (aadb939) was replaced by a bright neon look (43a6cbe): lime/cyan/magenta glow on a light #fbfff2 base, dark neon footer, Fredoka headings, original SVG doodles. Body text 18.19:1 contrast and all text pairs WCAG AA; prefers-reduced-motion respected. style.css 2,590 -> 13,731 bytes.
+- Legal: footer on every page now reads "© 2026 Joshua Israel Ventures LLC. All rights reserved. SnakeWise is owned and operated by Joshua Israel Ventures LLC." with Terms, Privacy, Disclaimer, About and Contact (mailto). New pages: /terms.html, /privacy.html, /disclaimer.html, /about.html (aadb939). Florida LLC, Florida governing law and venue (eba4fc4). JSON-LD publisher = Joshua Israel Ventures LLC (brand SnakeWise).
+- Games (908583b): /games/ hub plus Lookalike Lab, Scale Snap and Shed Shuffle (original code and art, VideoGame JSON-LD, LLC publisher; credits at /games/CREDITS.md). game.html unchanged.
+- Teachers (68d5dbc): /teachers/ hub, fact sheet, adaptations worksheet, answer keys, vocabulary, NGSS lesson ideas (PE codes checked on nextgenscience.org); /research/ with DOIs checked via Crossref and doi.org; cite boxes and last-reviewed dates; Teachers in nav and home tile.
+- sitemap.xml now 31 URLs; llms.txt has About & legal, Games and For teachers sections.
+- IndexNow HTTP 200 for legal pages, the Florida fix, games set, and the teachers/research set (11 URLs, 8 Oct). All new URLs verified 200 live with the LLC footer.
+- Pending: photos and a /credits/ page (after 19:45, under the heavy-build lock); screenshots after 19:45.
+
 ## Scorecard
 | Date | Window | Impressions | Clicks | CTR | Avg pos | Indexed pages | Top100/20/10/3 queries | Growing pages | Declining pages | Conversions |
 |---|---|---|---|---|---|---|---|---|---|---|
