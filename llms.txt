@@ -15,6 +15,10 @@ The content is general education, not medical advice or a field identification k
 - [Snakes as pets](https://snakewise.org/pets.html): beginner species, enclosure, heat, feeding and health basics
 - [Snake glossary](https://snakewise.org/glossary.html): definitions of common snake terms
 
+## Blog
+- [SnakeWise blog](https://snakewise.org/blog/): species profiles and fact articles with cited, verified sources
+- [Paradise flying snake: how a snake with no wings glides](https://snakewise.org/blog/paradise-flying-snake.html): range, size, diet, and how Chrysopelea paradisi jumps, flattens and undulates to glide (2026-10-08)
+
 ## Tools
 - [Venomous or not? ID guide by region](https://snakewise.org/venomous-or-not.html): venomous snakes and harmless lookalikes in North America, UK and Europe, Australia, South Asia, Sub-Saharan Africa and Latin America
   - Region sections: [North America](https://snakewise.org/venomous-or-not.html#north-america), [UK & Europe](https://snakewise.org/venomous-or-not.html#uk-europe), [Australia](https://snakewise.org/venomous-or-not.html#australia), [South Asia](https://snakewise.org/venomous-or-not.html#south-asia), [Sub-Saharan Africa](https://snakewise.org/venomous-or-not.html#africa), [Central & South America](https://snakewise.org/venomous-or-not.html#latin-america); plus a snake identification FAQ

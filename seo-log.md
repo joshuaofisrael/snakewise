@@ -40,6 +40,12 @@ Changes:
 Why: passage/section-level ranking and AI citations for region-specific ID questions; direct answers for long-tail "is X venomous" queries.
 Watch: once GSC data arrives, check which region queries show impressions; split a region into its own page only if it earns impressions.
 
+## 2026-10-08 — Daily fact article #1 (11:43 routine): paradise flying snake
+- New blog section: https://snakewise.org/blog/ (Blog JSON-LD), "Blog" added to the nav on every page and the post template, Blog tile on home.
+- New post: https://snakewise.org/blog/paradise-flying-snake.html (answer-first lead, BlogPosting JSON-LD with about=Taxon and 5 citation entries, og:type article). Internal links to species, habitats, movement, ID guide, safety, shop; species.html paradise tree snake profile links to it.
+- Sources opened and checked against each claim: Socha, O'Dempsey & LaBarbera 2005 JEB (doi:10.1242/jeb.01579); Socha 2006 JEB (doi:10.1242/jeb.02381); Yeaton, Ross, Baumgardner & Socha 2020 Nature Physics (doi:10.1038/s41567-020-0935-4); Socha 2002 Nature (doi:10.1038/418603a); Reptile Database species account. Conservation status skipped (IUCN listing could not be fetched to confirm).
+- sitemap.xml (+2 URLs with lastmod), llms.txt Blog section, topic log in fact-reports.md.
+
 ## Scorecard
 | Date | Window | Impressions | Clicks | CTR | Avg pos | Indexed pages | Top100/20/10/3 queries | Growing pages | Declining pages | Conversions |
 |---|---|---|---|---|---|---|---|---|---|---|
