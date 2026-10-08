@@ -29,6 +29,6 @@ The content is general education, not medical advice or a field identification k
 
 ## About & legal
 - [About SnakeWise](https://snakewise.org/about.html): what the site covers, how facts are sourced, and who runs it (a brand of Joshua Israel Ventures LLC)
-- [Terms of Use](https://snakewise.org/terms.html): educational information only, no warranties, Michigan law
+- [Terms of Use](https://snakewise.org/terms.html): educational information only, no warranties, Florida law
 - [Privacy Policy](https://snakewise.org/privacy.html): no accounts, forms, analytics or ad cookies; GitHub Pages logs, Google Fonts, local game score
 - [Disclaimer](https://snakewise.org/disclaimer.html): accuracy, snake ID and safety, advertising and affiliate (FTC) disclosure
