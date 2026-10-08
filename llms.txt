@@ -23,6 +23,15 @@ The content is general education, not medical advice or a field identification k
 - [Venomous or not? ID guide by region](https://snakewise.org/venomous-or-not.html): venomous snakes and harmless lookalikes in North America, UK and Europe, Australia, South Asia, Sub-Saharan Africa and Latin America
   - Region sections: [North America](https://snakewise.org/venomous-or-not.html#north-america), [UK & Europe](https://snakewise.org/venomous-or-not.html#uk-europe), [Australia](https://snakewise.org/venomous-or-not.html#australia), [South Asia](https://snakewise.org/venomous-or-not.html#south-asia), [Sub-Saharan Africa](https://snakewise.org/venomous-or-not.html#africa), [Central & South America](https://snakewise.org/venomous-or-not.html#latin-america); plus a snake identification FAQ
 
+## For teachers and researchers
+- [SnakeWise for teachers](https://snakewise.org/teachers/): free K-12 snake teaching resources, no sign-up
+- [Printable snake fact sheet](https://snakewise.org/teachers/snake-fact-sheet.html): grades 3-5
+- [Snake adaptations worksheet](https://snakewise.org/teachers/snake-adaptations-worksheet.html): grades 3-5, NGSS 4-LS1-1 and 3-LS4-3
+- [Answer keys](https://snakewise.org/teachers/answer-keys.html)
+- [Snake vocabulary list](https://snakewise.org/teachers/vocabulary.html)
+- [Snake lesson plan ideas](https://snakewise.org/teachers/lesson-ideas.html): K-12, aligned to NGSS K-LS1-1, 3-LS4-3, 4-LS1-1, 4-LS1-2, MS-LS4-4, HS-LS4-4
+- [Research papers for students and researchers](https://snakewise.org/research/): peer-reviewed papers with verified DOIs
+
 ## Games
 - [SnakeWise games](https://snakewise.org/games/): hub of free, original snake games that teach real facts
 - [Lookalike Lab](https://snakewise.org/games/lookalike-lab/): venomous or harmless quiz using clues from the ID guide (learning only, not safety advice)
