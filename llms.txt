@@ -23,6 +23,12 @@ The content is general education, not medical advice or a field identification k
 - [Venomous or not? ID guide by region](https://snakewise.org/venomous-or-not.html): venomous snakes and harmless lookalikes in North America, UK and Europe, Australia, South Asia, Sub-Saharan Africa and Latin America
   - Region sections: [North America](https://snakewise.org/venomous-or-not.html#north-america), [UK & Europe](https://snakewise.org/venomous-or-not.html#uk-europe), [Australia](https://snakewise.org/venomous-or-not.html#australia), [South Asia](https://snakewise.org/venomous-or-not.html#south-asia), [Sub-Saharan Africa](https://snakewise.org/venomous-or-not.html#africa), [Central & South America](https://snakewise.org/venomous-or-not.html#latin-america); plus a snake identification FAQ
 
+## Games
+- [SnakeWise games](https://snakewise.org/games/): hub of free, original snake games that teach real facts
+- [Lookalike Lab](https://snakewise.org/games/lookalike-lab/): venomous or harmless quiz using clues from the ID guide (learning only, not safety advice)
+- [Scale Snap](https://snakewise.org/games/scale-snap/): memory match of snake markings, each pair revealing which species wears it
+- [Shed Shuffle](https://snakewise.org/games/shed-shuffle/): tile-swap picture puzzle about how snakes shed their skin
+
 ## Optional
 - [The Slither Game](https://snakewise.org/game.html): an original browser snake game
 - [Snake gear shop](https://snakewise.org/shop.html): coming soon; no products are available yet
@@ -30,5 +36,5 @@ The content is general education, not medical advice or a field identification k
 ## About & legal
 - [About SnakeWise](https://snakewise.org/about.html): what the site covers, how facts are sourced, and who runs it (a brand of Joshua Israel Ventures LLC)
 - [Terms of Use](https://snakewise.org/terms.html): educational information only, no warranties, Florida law
-- [Privacy Policy](https://snakewise.org/privacy.html): no accounts, forms, analytics or ad cookies; GitHub Pages logs, Google Fonts, local game score
+- [Privacy Policy](https://snakewise.org/privacy.html): no accounts, forms, analytics or ad cookies; GitHub Pages logs, Google Fonts, local game scores
 - [Disclaimer](https://snakewise.org/disclaimer.html): accuracy, snake ID and safety, advertising and affiliate (FTC) disclosure
