@@ -14,6 +14,10 @@ Changes (highest EV first):
 
 Next ideas: verify Search Console once DNS live and submit sitemap; add original SVG diagrams (anatomy, movement); per-region ID pages only if impressions justify; add og:image.
 
+## 2026-10-08 — IndexNow
+- Key file: https://snakewise.org/a822d72a62a4cf99a3f79086eeace725.txt (key a822d72a62a4cf99a3f79086eeace725). robots.txt allows all bots (incl. Bingbot) and lists the sitemap.
+- **Rule: every future publish/update must be pinged** with `./indexnow.sh <url> [url...]` (no args = submit all sitemap URLs). Add new pages to sitemap.xml first.
+
 ## Scorecard
 | Date | Window | Impressions | Clicks | CTR | Avg pos | Indexed pages | Top100/20/10/3 queries | Growing pages | Declining pages | Conversions |
 |---|---|---|---|---|---|---|---|---|---|---|
