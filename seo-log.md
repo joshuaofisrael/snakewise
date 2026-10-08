@@ -27,9 +27,20 @@ Next ideas: verify Search Console once DNS live and submit sitemap; add original
 - Verified: 28/28 HTTP 200 for home + venomous-or-not.html across all 14 crawler UAs. IndexNow ping for 13 changed URLs → HTTP 200; indexnow.sh now exits 0.
 - Why: AI search/answer engines favour crawlable pages with a concise direct answer at the top and a machine-readable site map.
 
+## 2026-10-08 — Daily SEO (10:17 run): ID guide region deep links + FAQ
+Data: no Search Console query data yet (domain live since 7 Oct ~20:10). Crawl: all 14 sitemap URLs HTTP 200, www → apex 301, robots allows all incl. Bingbot, GSC verification meta present on home.
+Pick: the region ID guide (/venomous-or-not.html) is the site's only unique asset and targets the highest-intent queries ("venomous snakes in the UK", "coral snake vs milk snake", "is this snake venomous"). Before today the six region tables could not be linked or cited individually.
+Changes:
+- Each region section now has a stable id (#north-america, #uk-europe, #australia, #south-asia, #africa, #latin-america) plus a crawlable "Jump to" link row; the region selector reads and writes the URL hash. Without JS all regions remain visible.
+- New "Snake identification FAQ" (6 Qs: UK venomous snakes, coral vs milk snake, triangular heads/slit pupils myth, tail-shaking non-rattlesnakes, cobra/krait lookalikes in South Asia, what to do if unsure), answered only from facts already in the tables/safety page; matching FAQPage JSON-LD (parses OK). Links to safety.html.
+- llms.txt: region anchor links listed under the ID guide.
+- Verified live; Bingbot UA 200; IndexNow ping for venomous-or-not.html + llms.txt → HTTP 200. LLC footer intact.
+Why: passage/section-level ranking and AI citations for region-specific ID questions; direct answers for long-tail "is X venomous" queries.
+Watch: once GSC data arrives, check which region queries show impressions; split a region into its own page only if it earns impressions.
+
 ## Scorecard
 | Date | Window | Impressions | Clicks | CTR | Avg pos | Indexed pages | Top100/20/10/3 queries | Growing pages | Declining pages | Conversions |
 |---|---|---|---|---|---|---|---|---|---|---|
-| | 7d | | | | | | | | | |
+| 2026-10-08 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 14 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
 | | 28d | | | | | | | | | |
 | | 90d | | | | | | | | | |
