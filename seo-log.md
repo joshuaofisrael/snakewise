@@ -56,6 +56,15 @@ Watch: once GSC data arrives, check which region queries show impressions; split
 - IndexNow HTTP 200 for legal pages, the Florida fix, games set, and the teachers/research set (11 URLs, 8 Oct). All new URLs verified 200 live with the LLC footer.
 - Pending: photos and a /credits/ page (after 19:45, under the heavy-build lock); screenshots after 19:45.
 
+## 2026-10-08 (late, ~23:20 BST) — Photos + /credits/ (commit 68ff5e9)
+- 8 freely licensed Wikimedia Commons snake photos added as WebP (all <=800px wide, all <80 KB): rough green snake (home hero), ball python + California kingsnake (pets), corn snake + eastern hognose (species), eastern garter snake (myths), ring-necked snake (habitats), rosy boa (teachers/). Each has explicit width/height, descriptive alt text, loading=lazy, decoding=async and a caption with author, licence link and a link to /credits/.
+- Licences: CC BY 2.0 x3 (Judy Gallagher; Linda Tanner; Virginia State Parks staff), CC BY 3.0 x1 (Holger Krisp), CC0 1.0 x3 (5snake5 x2; Jasper Shide), Public Domain Mark x1 (Benjamin Genter). Ring-necked snake cropped 48px at the top to remove the author's name watermark. Hognose re-encoded at 640px (800px could not get under 80 KB).
+- New https://snakewise.org/credits/ (WebPage JSON-LD, LLC publisher): every photo with author, Commons source/original, licence link and changes; fonts (Fredoka, OFL); original artwork/games note; rights-holder contact.
+- "Credits" link added to the footer on every page and the blog post template; /credits/ added to sitemap.xml (32 URLs) and llms.txt. No URL changes. Legal footer links intact. game.html (The Slither Game) untouched per Joshua: byte-identical live.
+- Verified live with single curls: /credits/, /, pets, species, myths, habitats, teachers/, WebPs, sitemap, llms.txt all HTTP 200.
+- IndexNow: 8 URLs (/credits/, /, pets, species, myths, habitats, teachers/, llms.txt) -> HTTP 200.
+- Build script fixes: run_after_1945.sh time guard now blocks only weekdays 14:00-19:45 Europe/London (it blocked all weekday hours before 19:45 and used the box's CEST clock), and its inner flock was removed (it re-took the same lock as the caller and would deadlock).
+
 ## Scorecard
 | Date | Window | Impressions | Clicks | CTR | Avg pos | Indexed pages | Top100/20/10/3 queries | Growing pages | Declining pages | Conversions |
 |---|---|---|---|---|---|---|---|---|---|---|
