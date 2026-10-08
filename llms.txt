@@ -1,6 +1,6 @@
 # SnakeWise
 
-> SnakeWise is a free, original educational website about snakes for curious beginners and enthusiasts. It explains snake anatomy, movement, venom and constriction, notable species, habitats, common myths, safety around wild snakes and pet snake basics, and offers a region-by-region guide to telling venomous snakes from harmless lookalikes. Operated by Joshua Israel Ventures LLC.
+> SnakeWise is a free, original educational website about snakes for curious beginners and enthusiasts. It explains snake anatomy, movement, venom and constriction, notable species, habitats, common myths, safety around wild snakes and pet snake basics, and offers a region-by-region guide to telling venomous snakes from harmless lookalikes. SnakeWise is a brand owned and operated by Joshua Israel Ventures LLC, which does all SnakeWise business.
 
 The content is general education, not medical advice or a field identification key.
 
@@ -26,3 +26,9 @@ The content is general education, not medical advice or a field identification k
 ## Optional
 - [The Slither Game](https://snakewise.org/game.html): an original browser snake game
 - [Snake gear shop](https://snakewise.org/shop.html): coming soon; no products are available yet
+
+## About & legal
+- [About SnakeWise](https://snakewise.org/about.html): what the site covers, how facts are sourced, and who runs it (a brand of Joshua Israel Ventures LLC)
+- [Terms of Use](https://snakewise.org/terms.html): educational information only, no warranties, Michigan law
+- [Privacy Policy](https://snakewise.org/privacy.html): no accounts, forms, analytics or ad cookies; GitHub Pages logs, Google Fonts, local game score
+- [Disclaimer](https://snakewise.org/disclaimer.html): accuracy, snake ID and safety, advertising and affiliate (FTC) disclosure
