@@ -47,3 +47,4 @@ The content is general education, not medical advice or a field identification k
 - [Terms of Use](https://snakewise.org/terms.html): educational information only, no warranties, Florida law
 - [Privacy Policy](https://snakewise.org/privacy.html): no accounts, forms, analytics or ad cookies; GitHub Pages logs, Google Fonts, local game scores
 - [Disclaimer](https://snakewise.org/disclaimer.html): accuracy, snake ID and safety, advertising and affiliate (FTC) disclosure
+- [Photo and asset credits](https://snakewise.org/credits/): author, source and licence (CC0, CC BY, public domain) for every photo; fonts; original artwork
