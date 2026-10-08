@@ -18,6 +18,15 @@ Next ideas: verify Search Console once DNS live and submit sitemap; add original
 - Key file: https://snakewise.org/a822d72a62a4cf99a3f79086eeace725.txt (key a822d72a62a4cf99a3f79086eeace725). robots.txt allows all bots (incl. Bingbot) and lists the sitemap.
 - **Rule: every future publish/update must be pinged** with `./indexnow.sh <url> [url...]` (no args = submit all sitemap URLs). Add new pages to sitemap.xml first.
 
+## 2026-10-08 — AI-search readiness
+- robots.txt: kept `User-agent: * / Allow: /`; added explicit Allow groups for OAI-SearchBot, ChatGPT-User, GPTBot, PerplexityBot, Perplexity-User, ClaudeBot, Claude-SearchBot, Claude-User, Google-Extended, Applebot, Applebot-Extended, Bingbot, DuckAssistBot, Amazonbot; Sitemap line kept.
+- New https://snakewise.org/llms.txt (llmstxt.org format, key pages + one-line descriptions, LLC line); added to sitemap.xml.
+- Answer-first lead paragraphs added to home and all topic pages (anatomy, movement, venom-constriction, species, habitats, myths, safety, pets, glossary), summarising facts already on each page; no new claims.
+- Titles: species → "Notable Snake Species: Facts & Comparison Table"; venom-constriction → "Venom vs Constriction: How Snakes Subdue Prey".
+- JSON-LD checked and parses OK: WebSite+Organization (home), Article (topic pages + ID guide), FAQPage (myths).
+- Verified: 28/28 HTTP 200 for home + venomous-or-not.html across all 14 crawler UAs. IndexNow ping for 13 changed URLs → HTTP 200; indexnow.sh now exits 0.
+- Why: AI search/answer engines favour crawlable pages with a concise direct answer at the top and a machine-readable site map.
+
 ## Scorecard
 | Date | Window | Impressions | Clicks | CTR | Avg pos | Indexed pages | Top100/20/10/3 queries | Growing pages | Declining pages | Conversions |
 |---|---|---|---|---|---|---|---|---|---|---|
