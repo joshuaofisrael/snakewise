@@ -64,6 +64,7 @@ Watch: once GSC data arrives, check which region queries show impressions; split
 - Verified live with single curls: /credits/, /, pets, species, myths, habitats, teachers/, WebPs, sitemap, llms.txt all HTTP 200.
 - IndexNow: 8 URLs (/credits/, /, pets, species, myths, habitats, teachers/, llms.txt) -> HTTP 200.
 - Build script fixes: run_after_1945.sh time guard now blocks only weekdays 14:00-19:45 Europe/London (it blocked all weekday hours before 19:45 and used the box's CEST clock), and its inner flock was removed (it re-took the same lock as the caller and would deadlock).
+- Screenshots (home + /games/, 1280x800 and 390x844): NOT taken. First headless Chrome run crashed (SIGTRAP in --single-process mode; flag since removed from shots.py), then box load rose to 115-155, above the 50 stop line, so the retry was held. Pending.
 
 ## Scorecard
 | Date | Window | Impressions | Clicks | CTR | Avg pos | Indexed pages | Top100/20/10/3 queries | Growing pages | Declining pages | Conversions |
