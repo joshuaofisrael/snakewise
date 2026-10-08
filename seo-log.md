@@ -12,6 +12,8 @@ Changes (highest EV first):
 6. **Custom 404.html** (noindex, absolute links).
 7. Accessible SVG logo title. LLC footer retained on all pages.
 
+Future blog posts: use `_templates/new_post.py` (template `_templates/blog-post.html`, not published by Jekyll) — footer includes Contact us mailto + LLC line.
+
 Next ideas: verify Search Console once DNS live and submit sitemap; add original SVG diagrams (anatomy, movement); per-region ID pages only if impressions justify; add og:image.
 
 ## 2026-10-08 — IndexNow
