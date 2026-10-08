@@ -1,0 +1,23 @@
+# SnakeWise
+
+> SnakeWise is a free, original educational website about snakes for curious beginners and enthusiasts. It explains snake anatomy, movement, venom and constriction, notable species, habitats, common myths, safety around wild snakes and pet snake basics, and offers a region-by-region guide to telling venomous snakes from harmless lookalikes. Operated by Joshua Israel Ventures LLC.
+
+The content is general education, not medical advice or a field identification key.
+
+## Guides
+- [Snake anatomy](https://snakewise.org/anatomy.html): skeleton, scales and shedding, senses, jaws and organs
+- [How snakes move](https://snakewise.org/movement.html): lateral undulation, concertina, rectilinear, sidewinding and gliding
+- [Venom vs constriction](https://snakewise.org/venom-constriction.html): how snakes subdue prey, fang types, venomous vs poisonous
+- [Notable snake species](https://snakewise.org/species.html): comparison table and profiles of 12 remarkable species
+- [Snake habitats](https://snakewise.org/habitats.html): where snakes live, from rainforests and deserts to oceans
+- [Snake myths vs facts](https://snakewise.org/myths.html): common misconceptions corrected
+- [Safety around wild snakes](https://snakewise.org/safety.html): prevention, encounters and snakebite first-aid do's and don'ts
+- [Snakes as pets](https://snakewise.org/pets.html): beginner species, enclosure, heat, feeding and health basics
+- [Snake glossary](https://snakewise.org/glossary.html): definitions of common snake terms
+
+## Tools
+- [Venomous or not? ID guide by region](https://snakewise.org/venomous-or-not.html): venomous snakes and harmless lookalikes in North America, UK and Europe, Australia, South Asia, Sub-Saharan Africa and Latin America
+
+## Optional
+- [The Slither Game](https://snakewise.org/game.html): an original browser snake game
+- [Snake gear shop](https://snakewise.org/shop.html): coming soon; no products are available yet
