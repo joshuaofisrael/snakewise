@@ -72,3 +72,8 @@ Watch: once GSC data arrives, check which region queries show impressions; split
 | 2026-10-08 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 14 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
 | | 28d | | | | | | | | | |
 | | 90d | | | | | | | | | |
+
+## 2026-10-09 (~11:05 BST) — Daily fact article: How do sidewinder snakes move?
+- New post https://snakewise.org/blog/how-do-sidewinders-move.html (target query "how do sidewinders move" / "why do sidewinders move sideways"). Answer-first lead, quick facts, 8 question H2s, 5-question FAQ, sources list. Article JSON-LD (LLC publisher, about Taxon, 6 ScholarlyArticle citations) + FAQPage JSON-LD.
+- Sources opened and checked against abstracts/full text (Crossref, Europe PMC, PMC): Marvi 2014 Science; Astley 2015 PNAS (PMC4434722); Secor, Jayne & Bennett 1992 JEB (Crossref abstract); Rieser 2021 PNAS (PMC8017952); Tingle 2020 ICB; Jayne 2020 ICB; Reptile Database (range, venomous, live-bearing, etymology). No images added.
+- Internal links: movement, species, habitats, safety, ID guide, shop, paradise flying snake post. Added to blog index (card + Blog JSON-LD), sitemap.xml (blog/ lastmod 2026-10-09), llms.txt.
