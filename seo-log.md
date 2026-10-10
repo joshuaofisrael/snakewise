@@ -89,4 +89,4 @@ Pick (priority 7, internal architecture; nothing in priorities 1 to 3 is actiona
 Why: it passes topical relevance and crawl paths from the hub page to the deep pages and strengthens the movement cluster.
 Next: once GSC data shows up, update the scorecard; if the movement queries show impressions, expand movement.html (it's thin, about 5 short cards) with research-backed detail on each mode.
 
-| 2026-10-10 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 35 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
+| 2026-10-10 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 33 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
