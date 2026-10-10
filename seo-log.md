@@ -78,3 +78,15 @@ Watch: once GSC data arrives, check which region queries show impressions; split
 - Sources opened and checked against abstracts/full text (Crossref, Europe PMC, PMC): Marvi 2014 Science; Astley 2015 PNAS (PMC4434722); Secor, Jayne & Bennett 1992 JEB (Crossref abstract); Rieser 2021 PNAS (PMC8017952); Tingle 2020 ICB; Jayne 2020 ICB; Reptile Database (range, venomous, live-bearing, etymology). No images added.
 - Internal links: movement, species, habitats, safety, ID guide, shop, paradise flying snake post. Added to blog index (card + Blog JSON-LD), sitemap.xml (blog/ lastmod 2026-10-09), llms.txt.
 - Live HTTP 200; IndexNow ping (post, /blog/, sitemap, llms.txt) done.
+
+## 2026-10-10 (~02:00 BST) — Daily SEO: internal links to the two blog deep-dives
+Data: still no Search Console query data (Personal assistant hasn't shared any). Crawl: every sitemap URL HTTP 200 with the Bingbot UA; repo in sync with origin.
+Finding: the two cited blog deep-dives (sidewinder, paradise flying snake) were only linked from the blog index and species.html. movement.html, the closest topic page ("how do snakes move"), didn't link to either one, so the topic cluster wasn't connected.
+Pick (priority 7, internal architecture; nothing in priorities 1 to 3 is actionable without GSC data): contextual links.
+- movement.html: the Sidewinding card links to /blog/how-do-sidewinders-move.html, the Specialists (gliding) card links to /blog/paradise-flying-snake.html, and "Keep exploring" gains Snake fact blog.
+- habitats.html: "Sidewinders" in the Deserts card links to the sidewinder post.
+- Commit 3f27f9d. Verified live; IndexNow for movement + habitats returned HTTP 200. LLC footer untouched.
+Why: it passes topical relevance and crawl paths from the hub page to the deep pages and strengthens the movement cluster.
+Next: once GSC data shows up, update the scorecard; if the movement queries show impressions, expand movement.html (it's thin, about 5 short cards) with research-backed detail on each mode.
+
+| 2026-10-10 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 35 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
