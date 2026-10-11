@@ -103,3 +103,9 @@ Why: question-shaped headings target long-tail "do snakes chase people / are sna
 Next: same treatment for glossary.html (no per-term anchors) and pets.html title ("best pet snakes for beginners" intent) if GSC still shows nothing; expand movement.html once movement queries show impressions.
 
 | 2026-10-11 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 33 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
+
+## 2026-10-11 (~10:50 BST) — Daily fact article: how long can a snake go without eating?
+- New post /blog/how-long-can-a-snake-go-without-eating.html (question query "how long can a snake go without eating"), Burmese python profile: fasting strategies (McCue 2007: 168-day fast, resting metabolism down up to 72%, fat burned, protein spared), post-meal gut response (Secor & Diamond 1995), heart growth and regression (Andersen 2005, Riquelme 2011, Martin 2024). All six papers checked against PubMed/Crossref abstracts.
+- Article + FAQPage JSON-LD (5 Qs, citations, Taxon), og:type article, internal links to anatomy, venom-constriction, species, habitats, safety, pets, shop and both earlier posts.
+- Added to blog index, sitemap (lastmod 2026-10-11), llms.txt. Commit b9b94d5. Live HTTP 200, LLC footer present. IndexNow HTTP 200 (post, blog index, sitemap, llms.txt).
+- Group post skipped: Animal Sites group chat no longer exists (since 9 Oct).
