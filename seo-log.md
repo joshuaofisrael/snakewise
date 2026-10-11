@@ -90,3 +90,16 @@ Why: it passes topical relevance and crawl paths from the hub page to the deep p
 Next: once GSC data shows up, update the scorecard; if the movement queries show impressions, expand movement.html (it's thin, about 5 short cards) with research-backed detail on each mode.
 
 | 2026-10-10 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 33 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
+
+## 2026-10-11 (~02:05 BST) — Daily SEO: myths page restructured for question queries
+Data: still no Search Console query data. Crawl/audit: all pages have a canonical and a title/meta; myths.html stood out as the weakest-structured core page (generic title "Snake Myths vs Facts", H1 "Myths vs facts", no subheadings, nine myths only as bold paragraphs, so none could match a question query or be linked individually).
+Pick (priority 2/7, on-page structure for a core evergreen page; no GSC data to rank by winners yet): restructure myths.html without adding new factual claims.
+- Each myth now has a question H2 and stable id (#slimy, #jaws, #head-shape, #baby-snakes, #chase, #first-aid, #deaf, #rattles, #eggs) plus a "Jump to" row (same style as the ID guide).
+- FAQPage JSON-LD question names now match the H2s (were "Is it true that ..."); JSON parses.
+- Contextual links: jaws/deaf → anatomy, head-shape → ID guide, chasing/first aid → safety; Keep exploring adds ID guide and Blog.
+- Title "Snake Myths vs Facts: 9 Common Beliefs Debunked | SnakeWise", new question-led meta description, H1 "Snake myths vs facts"; sitemap lastmod 2026-10-11; llms.txt entry expanded.
+- Commit 9fb0e6e. Verified live (HTTP 200, Bingbot UA), LLC footer intact. IndexNow ping for myths, sitemap, llms.txt sent.
+Why: question-shaped headings target long-tail "do snakes chase people / are snakes slimy / are baby snakes more dangerous" queries and give AI search engines citable sections.
+Next: same treatment for glossary.html (no per-term anchors) and pets.html title ("best pet snakes for beginners" intent) if GSC still shows nothing; expand movement.html once movement queries show impressions.
+
+| 2026-10-11 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 33 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
