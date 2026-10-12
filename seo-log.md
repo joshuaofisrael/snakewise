@@ -125,3 +125,9 @@ Next: glossary.html per-term anchors and DefinedTermSet; later add a sourced beg
 - New post /blog/can-snakes-reproduce-without-mating.html (question query "can snakes reproduce without mating" / flowerpot snake), Brahminy blind snake (Indotyphlops braminus): obligate parthenogenesis, all-female, triploid 42 chromosomes (Wynn 1987, Ota 1991), draft and chromosome-level genomes (Khedkar 2022, Lv 2025). Papers opened and checked (Science Advances, Scientific Data, Amphibia-Reptilia abstract/DOI, AMNH Novitates abstract, Reptile Database).
 - Article + FAQPage JSON-LD (5 Qs, citations, Taxon), og:type article, internal links to species, habitats, anatomy, myths, venomous-or-not, safety, shop and earlier posts; species.html Brahminy card now links here.
 - Added to blog index, sitemap (lastmod 2026-10-12), llms.txt, fact-reports.md. No new photo (no PD/CC blind-snake asset on hand). Group post skipped: Animal Sites group chat no longer exists.
+
+## 2026-10-12
+- robots.txt: added explicit Allow groups for anthropic-ai, CCBot, Bytespider, Meta-ExternalAgent, cohere-ai (others already present).
+- privacy.html, disclaimer.html: added Florida governing-law section (matches terms.html).
+- Cloudflare Web Analytics: NOT added; box token valid but has no account access (accounts list empty, RUM API auth error). Site is not proxied by Cloudflare (GitHub Pages IPs, Namecheap DNS).
+- IndexNow pinged for changed URLs.

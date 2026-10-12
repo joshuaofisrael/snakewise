@@ -1,19 +1,13 @@
 User-agent: *
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
 Allow: /
 
 User-agent: ClaudeBot
@@ -23,6 +17,15 @@ User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
 Allow: /
 
 User-agent: Google-Extended
@@ -37,10 +40,22 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-User-agent: DuckAssistBot
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
 Allow: /
 
 User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: DuckAssistBot
 Allow: /
 
 Sitemap: https://snakewise.org/sitemap.xml
