@@ -109,3 +109,14 @@ Next: same treatment for glossary.html (no per-term anchors) and pets.html title
 - Article + FAQPage JSON-LD (5 Qs, citations, Taxon), og:type article, internal links to anatomy, venom-constriction, species, habitats, safety, pets, shop and both earlier posts.
 - Added to blog index, sitemap (lastmod 2026-10-11), llms.txt. Commit b9b94d5. Live HTTP 200, LLC footer present. IndexNow HTTP 200 (post, blog index, sitemap, llms.txt).
 - Group post skipped: Animal Sites group chat no longer exists (since 9 Oct).
+
+## 2026-10-12 (~02:00 BST) — Daily SEO: pets page retargeted to beginner pet snake questions
+Data: still no Search Console query data. Crawl/audit: pets.html had the generic title "Snakes as Pets: The Basics", six label-style H2s and no anchors or FAQ markup, though "best pet snake for beginners" style queries carry the most commercial intent on the site (links to the future gear shop).
+Pick (priority 2/7, on-page structure for a core evergreen page with commercial intent): restructure pets.html without adding new factual claims (Reptile Database fetch for size data came back empty, so no new numbers were added).
+- Title "Pet Snakes for Beginners: Species, Setup, Feeding and Health | SnakeWise", question-led meta and og tags, H1 "Pet snakes for beginners", Article JSON-LD headline + dateModified.
+- Six question H2s with ids (#right-for-you, #species, #enclosure, #heat, #feeding, #health), a "Jump to" nav (same markup as myths), FAQPage JSON-LD built from the existing answers (parses).
+- Contextual links: species, safety, the fasting blog post; Keep exploring adds myths and blog. Sitemap lastmod 2026-10-12; llms.txt entry expanded.
+- Commit b08c875. Live HTTP 200 (Bingbot UA), LLC footer intact. IndexNow ping for pets, sitemap, llms.txt.
+Next: glossary.html per-term anchors and DefinedTermSet; later add a sourced beginner species comparison table (adult size, lifespan, origin) to pets.html once sources are opened and checked.
+
+| 2026-10-12 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 33 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
