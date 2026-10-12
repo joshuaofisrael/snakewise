@@ -12,7 +12,7 @@ The content is general education, not medical advice or a field identification k
 - [Snake habitats](https://snakewise.org/habitats.html): where snakes live, from rainforests and deserts to oceans
 - [Snake myths vs facts](https://snakewise.org/myths.html): 9 common misconceptions corrected, one question per section (are snakes slimy, do they chase people, head-shape ID, first-aid myths)
 - [Safety around wild snakes](https://snakewise.org/safety.html): prevention, encounters and snakebite first-aid do's and don'ts
-- [Snakes as pets](https://snakewise.org/pets.html): beginner species, enclosure, heat, feeding and health basics
+- [Pet snakes for beginners](https://snakewise.org/pets.html): is a snake right for you, best beginner species, enclosure, heat and humidity, what pet snakes eat, and signs of illness (FAQ)
 - [Snake glossary](https://snakewise.org/glossary.html): definitions of common snake terms
 
 ## Blog
