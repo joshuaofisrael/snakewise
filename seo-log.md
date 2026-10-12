@@ -120,3 +120,8 @@ Pick (priority 2/7, on-page structure for a core evergreen page with commercial 
 Next: glossary.html per-term anchors and DefinedTermSet; later add a sourced beginner species comparison table (adult size, lifespan, origin) to pets.html once sources are opened and checked.
 
 | 2026-10-12 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 33 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
+
+## 2026-10-12 (~10:50 BST) — Daily fact article: can snakes reproduce without mating?
+- New post /blog/can-snakes-reproduce-without-mating.html (question query "can snakes reproduce without mating" / flowerpot snake), Brahminy blind snake (Indotyphlops braminus): obligate parthenogenesis, all-female, triploid 42 chromosomes (Wynn 1987, Ota 1991), draft and chromosome-level genomes (Khedkar 2022, Lv 2025). Papers opened and checked (Science Advances, Scientific Data, Amphibia-Reptilia abstract/DOI, AMNH Novitates abstract, Reptile Database).
+- Article + FAQPage JSON-LD (5 Qs, citations, Taxon), og:type article, internal links to species, habitats, anatomy, myths, venomous-or-not, safety, shop and earlier posts; species.html Brahminy card now links here.
+- Added to blog index, sitemap (lastmod 2026-10-12), llms.txt, fact-reports.md. No new photo (no PD/CC blind-snake asset on hand). Group post skipped: Animal Sites group chat no longer exists.
