@@ -145,3 +145,10 @@ Why: per-term anchors + DefinedTerm markup let search and AI engines cite and de
 Next: link term mentions on anatomy, venom-constriction and blog posts to glossary anchors (e.g. "ecdysis" → glossary.html#ecdysis) for a two-way internal link graph; then give movement.html or habitats.html the question-H2 + FAQ treatment; sourced beginner species table on pets.html once sources are checked.
 
 | 2026-10-13 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 35 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
+
+## 2026-10-13 (~10:55 BST) — Daily fact article: Can snakes hear?
+- Published /blog/can-snakes-hear.html ("Can Snakes Hear? How Snakes Hear Without Ears"), answer-first, ~1,150 words, quick facts, question H2s, 4-question FAQ, sources list. Targets "can snakes hear", "do snakes have ears", "how do snakes hear", "are snakes deaf".
+- Sources opened and checked against abstracts/full text: Zdenek et al. 2023 PLOS ONE; Christensen et al. 2012 JEB; Young & Aguiar 2002 JEB; Friedel et al. 2008 PRL; Young 2003 Q Rev Biol. Hartline 1971 JEB dropped (could not open past Cloudflare).
+- Article + FAQPage JSON-LD with 5 ScholarlyArticle citations; internal links to anatomy, safety, ID guide, pets, myths, species, shop and the sidewinder post. No images.
+- Added to blog index (card + BlogPosting), sitemap (blog/ lastmod 2026-10-13), llms.txt. Commit da56f86. Live HTTP 200 with LLC footer. IndexNow pinged (post, blog/, sitemap, llms.txt).
+- Animal Sites group chat no longer exists, so no group post.
