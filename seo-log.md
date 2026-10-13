@@ -131,3 +131,17 @@ Next: glossary.html per-term anchors and DefinedTermSet; later add a sourced beg
 - privacy.html, disclaimer.html: added Florida governing-law section (matches terms.html).
 - Cloudflare Web Analytics: NOT added; box token valid but has no account access (accounts list empty, RUM API auth error). Site is not proxied by Cloudflare (GitHub Pages IPs, Namecheap DNS).
 - IndexNow pinged for changed URLs.
+
+## 2026-10-13 (~02:00 BST) — Daily SEO: glossary per-term anchors and DefinedTermSet
+Data: still no Search Console query data. Audit: glossary.html was the weakest-structured evergreen page left (generic title "Snake Glossary", H1 "Glossary", 18 terms in a bare `<dl>` with no anchors, no links out, Article-only JSON-LD), so no single definition could be linked to or matched to a "what is ecdysis / what is a scute" style query. teachers/vocabulary.html mirrors the same term list as a printable and already links back to the glossary; both kept.
+Pick (priority 2/7, on-page structure for a core evergreen page, continuing the 11 Oct myths / 12 Oct pets pattern): restructure glossary.html with no new definitions or factual claims (all 18 terms and their wording kept).
+- Title "Snake Glossary: Brumation, Ecdysis, Elapid and More | SnakeWise", definition-led meta + og tags, H1 "Snake glossary"; lead paragraph unchanged.
+- Every `<dt>` has a stable id (#brumation, #colubrid, #constriction, #ecdysis, #ectotherm, #elapid, #fang, #heat-pit, #herpetology, #jacobsons-organ, #neurotoxin, #oviparous, #viviparous, #ophiophagous, #scute, #spectacle, #venom, #viper) plus a "Jump to" nav (same markup as myths/pets).
+- JSON-LD: Article (headline, dateModified 2026-10-13, LLC publisher, hasPart → set) + DefinedTermSet (#terms) with 18 DefinedTerm entries (name, existing description, url with #anchor, spectacle alternateName "brille"); both parse.
+- Contextual links inside definitions only where the wording already points there: brumation → habitats, colubrid "most are harmless" → ID guide, constriction/elapid/neurotoxin → venom-constriction, ecdysis/heat pit/Jacobson's organ/scute/spectacle → anatomy, ectotherm → pets#heat, viviparous → habitats, venom → safety, fang → #venom, viper → #fang. Keep exploring adds myths, blog and the printable vocabulary list.
+- Sitemap lastmod 2026-10-13; llms.txt glossary line lists the terms and anchor format.
+- Commit 3afc97a. Live HTTP 200 (Bingbot UA): new title, #jacobsons-organ anchor, DefinedTermSet and LLC footer present. All 35 sitemap URLs return 200. IndexNow HTTP 200 (glossary, sitemap, llms.txt).
+Why: per-term anchors + DefinedTerm markup let search and AI engines cite and deep-link an individual definition for short "what is X snake term" queries, and the in-definition links pass relevance to anatomy/venom pages.
+Next: link term mentions on anatomy, venom-constriction and blog posts to glossary anchors (e.g. "ecdysis" → glossary.html#ecdysis) for a two-way internal link graph; then give movement.html or habitats.html the question-H2 + FAQ treatment; sourced beginner species table on pets.html once sources are checked.
+
+| 2026-10-13 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 35 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
