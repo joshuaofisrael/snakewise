@@ -172,3 +172,4 @@ Next: question-H2 + FAQ treatment for movement.html or habitats.html; sourced be
 - Article + FAQPage JSON-LD with 3 ScholarlyArticle citations; internal links to species, habitats, safety, ID guide, venom-constriction, anatomy, shop, sidewinder and hearing posts. No images (licence unclear).
 - Also linked the king cobra card on species.html to this post. Added to blog index (card + BlogPosting), sitemap (blog/ lastmod 2026-10-14), llms.txt, fact-reports.md.
 - Animal Sites group chat no longer exists, so no group post; handoff draft prepared for parent.
+- Commit 3ed51d5. Live HTTP 200 (Bingbot UA): title, FAQPage, doi:10.1016/j.jtherbio.2023.103468, LLC footer present. IndexNow HTTP 200 (post, blog/, sitemap, llms.txt, species).
