@@ -165,3 +165,10 @@ Pick (priority 7, internal architecture; follows the 13 Oct glossary restructure
 Next: question-H2 + FAQ treatment for movement.html or habitats.html; sourced beginner species table on pets.html once sources are checked.
 
 | 2026-10-14 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 36 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
+
+## 2026-10-14 (~10:55 BST) — Daily fact article: How do king cobras build nests?
+- Published /blog/how-do-king-cobras-build-nests.html ("How Do King Cobras Build Nests?"), answer-first, ~1,050–1,170 words, quick facts, question H2s, 4-question FAQ, sources list. Targets "how do king cobras build nests", "king cobra nest", "do king cobras build nests".
+- Sources opened and checked: Dolia, Das & Kelkar 2023 Journal of Thermal Biology (ScienceDirect abstract + introduction; doi:10.1016/j.jtherbio.2023.103468) — 25 Himalayan nests ~3 °C warmer inside, nest temp predicts hatching success and hatchling length; Koirala & Tshering 2021 Reptiles & Amphibians full PDF (doi:10.17161/randa.v28i3.15786) — nest materials, 82.7×125 cm nest, guarding, 37 eggs / 34 hatch, 60–64 day incubation; Dolia 2018 Herpetology Notes full PDF — pine nest, nest sanitation, short guarding. Whitaker et al. 2013 Hamadryad not opened (no accessible PDF), so not cited as a primary source.
+- Article + FAQPage JSON-LD with 3 ScholarlyArticle citations; internal links to species, habitats, safety, ID guide, venom-constriction, anatomy, shop, sidewinder and hearing posts. No images (licence unclear).
+- Also linked the king cobra card on species.html to this post. Added to blog index (card + BlogPosting), sitemap (blog/ lastmod 2026-10-14), llms.txt, fact-reports.md.
+- Animal Sites group chat no longer exists, so no group post; handoff draft prepared for parent.
