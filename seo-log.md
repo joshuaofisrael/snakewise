@@ -152,3 +152,16 @@ Next: link term mentions on anatomy, venom-constriction and blog posts to glossa
 - Article + FAQPage JSON-LD with 5 ScholarlyArticle citations; internal links to anatomy, safety, ID guide, pets, myths, species, shop and the sidewinder post. No images.
 - Added to blog index (card + BlogPosting), sitemap (blog/ lastmod 2026-10-13), llms.txt. Commit da56f86. Live HTTP 200 with LLC footer. IndexNow pinged (post, blog/, sitemap, llms.txt).
 - Animal Sites group chat no longer exists, so no group post.
+
+## 2026-10-14 (~01:55 BST) — Daily SEO: anatomy and venom terms linked to glossary anchors
+Data: still no Search Console query data. Crawl: all 36 sitemap URLs return HTTP 200 with the Bingbot UA; repo in sync with origin.
+Pick (priority 7, internal architecture; follows the 13 Oct glossary restructure): make the glossary's new per-term anchors reachable from the topic pages that use those terms, so the link graph runs both ways. No wording or factual changes, only links on existing words.
+- anatomy.html: Jacobson's → #jacobsons-organ, ventral scutes → #scute, ecdysis → #ecdysis, heat-sensing pits → #heat-pit.
+- venom-constriction.html: neurotoxic → #neurotoxin, elapids → #elapid, Vipers → #viper, colubrids → #colubrid.
+- Sitemap lastmod 2026-10-14 added for both pages. Commit 4ef9fe9. Live HTTP 200, 4 glossary anchor links on each page, LLC footer intact. IndexNow ping (anatomy, venom-constriction, sitemap).
+- Blog posts checked: none use glossary terms in body text except "viper" in the sidewinder post (species context, not a definition need), so left alone.
+- Daily news post: none (no news search done in this slot; no relevant story queued).
+- Outreach: no emails sent; this routine's saved instruction doesn't cover sending outreach mail, so the 5/day allotment still needs a dedicated, approved outreach routine.
+Next: question-H2 + FAQ treatment for movement.html or habitats.html; sourced beginner species table on pets.html once sources are checked.
+
+| 2026-10-14 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 36 URLs in sitemap, all 200 | n/a | n/a | n/a | 0 (shop not live) |
