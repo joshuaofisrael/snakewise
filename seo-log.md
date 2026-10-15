@@ -173,3 +173,21 @@ Next: question-H2 + FAQ treatment for movement.html or habitats.html; sourced be
 - Also linked the king cobra card on species.html to this post. Added to blog index (card + BlogPosting), sitemap (blog/ lastmod 2026-10-14), llms.txt, fact-reports.md.
 - Animal Sites group chat no longer exists, so no group post; handoff draft prepared for parent.
 - Commit 3ed51d5. Live HTTP 200 (Bingbot UA): title, FAQPage, doi:10.1016/j.jtherbio.2023.103468, LLC footer present. IndexNow HTTP 200 (post, blog/, sitemap, llms.txt, species).
+
+## 2026-10-15 (~02:00 BST) — Daily SEO: movement page question H2s + FAQ; news post on venom and warning colours
+Data: still no Search Console query data. Repo in sync with origin; no Horton Drive address anywhere in the repo (grep clean).
+Pick (priority 2/7, on-page structure for a core evergreen page, same pattern as myths/pets/glossary): movement.html had a generic H1 "How Snakes Move", label-only H2s, no anchors, no FAQ, Article-only JSON-LD. No new facts added; FAQ answers reuse the page's existing wording.
+- H1 "How do snakes move?"; question-led meta + og description.
+- Section ids (#lateral-undulation, #concertina, #rectilinear, #sidewinding, #specialists) with descriptive question-style H2s and a "Jump to" nav (myths markup).
+- 6-question FAQ section (#faq) + FAQPage JSON-LD; Article dateModified 2026-10-15; both parse.
+- "Belly scales" linked to glossary.html#scute; Keep exploring adds glossary and games.
+- Sitemap lastmod 2026-10-15; llms.txt line lists anchors and FAQ. Commit 1f5cda5. Live HTTP 200 (Bingbot UA) with #faq.
+Daily news post: /blog/venomous-snakes-stand-out-colour-study.html ("Study: Venomous Snakes Are More Likely to Stand Out From Their Surroundings"), published 15 Oct.
+- Sources: Duclaux, Dugon & Healy 2026, Journal of Animal Ecology, online 4 Oct 2026, doi:10.1111/1365-2656.70351 (title, authors, date and abstract checked via Crossref; Wiley page 403); University of Galway press release 5 Oct 2026 (opened, quotes taken from it). Facts used: 458 species, iNaturalist images, contextual conspicuousness metric, venomous significantly more conspicuous, red/yellow effective, no association with potency or pain.
+- Own words, short attributed quotes, no images. NewsArticle JSON-LD with citations; visible publish date; internal links to ID guide, safety, myths, venom-constriction, Lookalike Lab, glossary#venom. Safety framing: colour alone is not an ID rule.
+- Blog index card + BlogPosting, sitemap (post + blog/ lastmod), llms.txt. Commit 4e5e3fd. Live HTTP 200 with DOI and LLC footer.
+- IndexNow HTTP 200 (movement, post, blog/, sitemap, llms.txt).
+Outreach: 3 personalised pitches prepared and validated, not sent (see outreach-log.md); handed to Joshua to send.
+Next: link this news post from venomous-or-not.html; give habitats.html the question-H2 + FAQ treatment.
+
+| 2026-10-15 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 37 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
