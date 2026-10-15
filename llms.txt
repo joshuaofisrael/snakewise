@@ -6,7 +6,7 @@ The content is general education, not medical advice or a field identification k
 
 ## Guides
 - [Snake anatomy](https://snakewise.org/anatomy.html): skeleton, scales and shedding, senses, jaws and organs
-- [How snakes move](https://snakewise.org/movement.html): lateral undulation, concertina, rectilinear, sidewinding and gliding
+- [How snakes move](https://snakewise.org/movement.html): lateral undulation, concertina, rectilinear, sidewinding and gliding; section anchors (#lateral-undulation, #concertina, #rectilinear, #sidewinding, #specialists) and a 6-question FAQ (#faq)
 - [Venom vs constriction](https://snakewise.org/venom-constriction.html): how snakes subdue prey, fang types, venomous vs poisonous
 - [Notable snake species](https://snakewise.org/species.html): comparison table and profiles of 12 remarkable species
 - [Snake habitats](https://snakewise.org/habitats.html): where snakes live, from rainforests and deserts to oceans
