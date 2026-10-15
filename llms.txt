@@ -53,3 +53,4 @@ The content is general education, not medical advice or a field identification k
 - [Privacy Policy](https://snakewise.org/privacy.html): no accounts, forms, analytics or ad cookies; GitHub Pages logs, Google Fonts, local game scores
 - [Disclaimer](https://snakewise.org/disclaimer.html): accuracy, snake ID and safety, advertising and affiliate (FTC) disclosure
 - [Photo and asset credits](https://snakewise.org/credits/): author, source and licence (CC0, CC BY, public domain) for every photo; fonts; original artwork
+- [Study: venomous snakes are more likely to stand out from their surroundings](https://snakewise.org/blog/venomous-snakes-stand-out-colour-study.html): news on Duclaux, Dugon & Healy 2026 (Journal of Animal Ecology, doi:10.1111/1365-2656.70351), 458 species, venomous snakes more contextually conspicuous; no link to venom potency or pain; colour alone is not a safe ID rule (2026-10-15)
