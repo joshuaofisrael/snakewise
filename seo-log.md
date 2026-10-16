@@ -198,3 +198,20 @@ Next: link this news post from venomous-or-not.html; give habitats.html the ques
 - Article + FAQPage JSON-LD with 9 ScholarlyArticle citations; original inline SVG diagram (no photos); internal links to anatomy, habitats, species, safety, ID guide, venom-constriction, movement, shop and three earlier posts. Linked the sea snake card on species.html to the post.
 - Blog index card + BlogPosting, sitemap (post + species lastmod), llms.txt, fact-reports.md. Animal Sites group no longer exists; handoff text prepared for parent.
 - Commit bd4c55f. Live HTTP 200 (Bingbot UA + plain): FAQPage, doi:10.1016/0034-5687(74)90002-4, LLC footer present. IndexNow HTTP 200 (post, blog/, sitemap, llms.txt, species).
+
+## 2026-10-16 (~02:00 BST) — Daily SEO: habitats page question H2s + FAQ; news post on spectacled cobra genetics
+Data: still no Search Console query data. Repo in sync with origin. The 15 Oct "Next" item to link the colour-study news post from venomous-or-not.html was already done (commit 29cd91b), so today's pick is the habitats page. Repo grep for the old home address: clean (only this log's earlier "grep clean" note matches).
+Pick (priority 2/7, on-page structure for a core evergreen page, same pattern as movement/myths/pets/glossary): habitats.html had a generic H1, label-only H2s, no anchors, no FAQ, Article-only JSON-LD. No new facts added; FAQ answers reuse the page's existing wording.
+- Title "Where Do Snakes Live? Snake Habitats Around the World"; H1 "Where do snakes live?"; question-led meta + og description.
+- Section ids (#distribution, #rainforests, #deserts, #grasslands, #wetlands, #oceans, #cold-climates) with descriptive H2s and a "Jump to" nav (movement markup).
+- 6-question FAQ (#faq) + FAQPage JSON-LD; Article headline updated, dateModified 2026-10-16; both parse.
+- Contextual links on existing words: brumating → glossary#brumation, give birth to live young → glossary#viviparous; Oceans section links the sea snake skin-breathing article; Keep exploring adds glossary and blog.
+- Sitemap lastmod 2026-10-16 (habitats was missing a lastmod); llms.txt line lists anchors and FAQ. Commit 86d608f. Live HTTP 200 with new H1, #faq, FAQPage and LLC footer.
+Daily news post: /blog/sri-lankan-spectacled-cobras-distinct-lineage-study.html ("Study: Sri Lanka's Spectacled Cobras Form a Distinct Genetic Lineage"), published 16 Oct.
+- Sources: Kanunjna, Gond, Unawane … Sunagar 2026, Molecular Phylogenetics and Evolution 223:108654, doi:10.1016/j.ympev.2026.108654 (title, journal, authors checked via Crossref; Elsevier page not opened); Mongabay, Malaka Rodrigo, 13 Oct 2026 (opened; Sunagar quotes); Phys.org, Krystal Kasal, 15 Oct 2026 (opened; paper quotes). Both reports agree on: 67 cobras, nine mito + nuclear markers, mainland largely panmictic, Sri Lankan lineage ~2 Mya with sea level a plausible (not proven) driver, African origin of Naja via Middle East in the Miocene, not declared a separate species. Background: Wüster & Tillack 2023 Zootaxa lectotype paper (cited via Mongabay).
+- Own words, short attributed quotes, no images. NewsArticle JSON-LD with 4 citations; visible publish date; internal links to king cobra post, glossary#elapid, habitats#distribution, safety, ID guide #south-asia, venom-constriction, species, colour-study post.
+- Blog index card + BlogPosting, sitemap (post + blog/ lastmod), llms.txt. Commits 6720bc6 + follow-up (ID guide anchor). Live HTTP 200 with DOI, NewsArticle and LLC footer.
+Outreach: 3 new personalised pitches prepared and validated, not sent (Australian Herpetological Society, Canadian Herpetological Society broken-link pitch, Tennessee Herpetological Society); see outreach-drafts-2026-10-16.md and outreach-log.md. Handed to Joshua to send.
+Next: species.html (core hub) question-H2 + FAQ treatment or a sourced comparison-table refresh; link the cobra news post from the spectacled cobra mention if species.html gains one; sourced beginner species table on pets.html once sources are checked.
+
+| 2026-10-16 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 40 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
