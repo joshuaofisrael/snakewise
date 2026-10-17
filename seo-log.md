@@ -239,4 +239,4 @@ Daily news post: /blog/snakes-escalate-warnings-before-biting-study.html ("Study
 Outreach: 2 new personalised pitches prepared and validated, not sent (PARC education resources; Georgia Reptile Society conservation page); see outreach-drafts-2026-10-17.md and outreach-log.md. Only 2 targets met the bar, so no third was forced. Handed to Joshua to send after Shabbat.
 Next: link the warning-sounds post from myths.html#rattles or the anatomy senses section if it fits; sourced beginner species table on pets.html once sources are checked; consider a short species.html note linking the spectacled cobra news post if a cobra comparison row is added with sources.
 
-| 2026-10-17 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 41 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
+| 2026-10-17 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 42 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
