@@ -262,3 +262,4 @@ Token confirmed: `94a41346ff174502afd7023a0a4c1c39` for snakewise.org in `/works
 - Added `<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "94a41346ff174502afd7023a0a4c1c39"}'></script>` just before `</body>` on all 44 HTML files (every page, games, blog posts, 404.html, and `_templates/blog-post.html`). game.html game logic untouched (game.js still loads; beacon only inserted).
 - privacy.html: replaced "no analytics" wording with cookieless Cloudflare Web Analytics disclosure; last updated 18 October 2026; dateModified 2026-10-18.
 - IndexNow: homepage + privacy.html.
+- Commit fc15051. Live curls: homepage, sea-snake blog post, and lookalike-lab game each contain beacon.min.js with token 94a41346ff174502afd7023a0a4c1c39. IndexNow HTTP accepted for / and privacy.html.
