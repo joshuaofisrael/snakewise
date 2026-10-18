@@ -256,3 +256,9 @@ Outreach: 2 new personalised pitches prepared and validated, not sent (Gatorland
 Next: visible HTML breadcrumbs matching the JSON-LD (small nav above H1, styled in style.css); WebSite + Organization JSON-LD check on the homepage; sourced beginner species table on pets.html; add the CF beacon as soon as a token arrives.
 
 | 2026-10-18 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 43 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
+
+## 2026-10-18 (~09:50 BST) — Cloudflare Web Analytics beacon sitewide
+Token confirmed: `94a41346ff174502afd7023a0a4c1c39` for snakewise.org in `/workspace/seo/cf-web-analytics-tokens-2026-10-18.json` (account JI Ventures Analytics 2). `audit-2026-10-18/audit.py` has no CF beacon token map (only IndexNow keys), so no mismatch; used the token file / Trends-bot value.
+- Added `<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "94a41346ff174502afd7023a0a4c1c39"}'></script>` just before `</body>` on all 44 HTML files (every page, games, blog posts, 404.html, and `_templates/blog-post.html`). game.html game logic untouched (game.js still loads; beacon only inserted).
+- privacy.html: replaced "no analytics" wording with cookieless Cloudflare Web Analytics disclosure; last updated 18 October 2026; dateModified 2026-10-18.
+- IndexNow: homepage + privacy.html.
