@@ -275,7 +275,7 @@ Token confirmed: `94a41346ff174502afd7023a0a4c1c39` for snakewise.org in `/works
 ## 2026-10-18 13:10 BST: contact page with working FormSubmit form
 - Added /contact.html (neon style, ContactPage + BreadcrumbList JSON-LD, canonical, indexable, LLC footer, CF beacon). Form POSTs to https://formsubmit.co/joshuaofisrael@gmail.com with _subject "SnakeWise contact form", _template table, _captcha false (matches catwise/dogfieldguide/promptframed/smarttirepicks/noravelle), _next https://snakewise.org/thanks.html, _honey honeypot (display:none), labelled name/email/message fields.
 - Added /thanks.html (noindex, follow; not in sitemap).
-- Footer "Contact" link on all 46 pages + _templates/blog-post.html + new_post.py now points to /contact.html; footer email link kept and "or use our contact form" added.
+- Footer "Contact" link on every page (44 existing) + _templates/blog-post.html + new_post.py now points to /contact.html; footer email link kept and "or use our contact form" added.
 - privacy.html updated: describes the contact form and FormSubmit (was "no contact form"). sitemap.xml + llms.txt updated.
 - Commit 2cb89dd, live (200), IndexNow HTTP 200 (contact, privacy, sitemap, llms.txt).
 - FormSubmit: test 1 at 13:09:46 BST triggered activation email ("Action Required: Activate FormSubmit on https://snakewise.org/contact.html"); activation link opened once 13:10 BST -> "Form Activated". Gmail received "SnakeWise contact form" at 13:10:17 BST and 13:10:24 BST from submissions@formsubmit.co. No emails sent or replied.
