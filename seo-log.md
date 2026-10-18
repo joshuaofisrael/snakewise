@@ -263,3 +263,11 @@ Token confirmed: `94a41346ff174502afd7023a0a4c1c39` for snakewise.org in `/works
 - privacy.html: replaced "no analytics" wording with cookieless Cloudflare Web Analytics disclosure; last updated 18 October 2026; dateModified 2026-10-18.
 - IndexNow: homepage + privacy.html.
 - Commit fc15051. Live curls: homepage, sea-snake blog post, and lookalike-lab game each contain beacon.min.js with token 94a41346ff174502afd7023a0a4c1c39. IndexNow HTTP accepted for / and privacy.html.
+
+## 2026-10-18 (~11:00 BST) — Daily snake article: Which snake has the longest fangs? (Gaboon viper)
+- Post: /blog/which-snake-has-the-longest-fangs.html ("Which Snake Has the Longest Fangs? The Gaboon Viper Explained"), ~1,190 words incl. FAQ, answer-first, question-style query. Original SVG fang-vs-ruler diagram (no photos).
+- Sources (abstracts opened via PubMed/OpenAlex/Crossref; Broeckhoven 2017 and Spinner 2013 full text via PMC): Cundall 2009 doi:10.1086/594380; Broeckhoven & du Plessis 2017 doi:10.1098/rsbl.2017.0293; Marsh & Whaler 1984 doi:10.1016/0041-0101(84)90152-1; Marsh, DeRoos & Touger 2007 doi:10.1080/15563650600795693; Spinner et al. 2013 doi:10.1038/srep01846; Luiselli & Akani 2003 doi:10.1080/21564574.2003.9635485; Glaudas et al. 2017 doi:10.1111/jzo.12450; Jackson 2003 doi:10.1046/j.1096-3642.2003.00052.x; Vonk et al. 2008 doi:10.1038/nature07178; Kuch et al. 2006 doi:10.1007/s00114-005-0065-y; Smithsonian National Zoo, Saint Louis Zoo, Guinness and Reptile Database pages opened. Author names in JSON-LD checked against Crossref.
+- Article JSON-LD (10 ScholarlyArticle citations) + FAQPage (5 Qs) + BreadcrumbList; internal links to species#gaboon-viper, glossary#fang, glossary#viper, venom-constriction, habitats, safety, venomous-or-not, research, shop, king cobra and smallest-snake posts.
+- species.html Gaboon viper card links the post (lastmod 2026-10-18). Blog index card + BlogPosting, sitemap, llms.txt. Commit 22d3c0e. Live HTTP 200 with DOI, FAQPage and LLC footer.
+- IndexNow HTTP 200 (post, blog/, species, sitemap, llms.txt).
+- Animal Sites group chat no longer exists (since 9 Oct), so no group post; handed to parent as the routine directs.
