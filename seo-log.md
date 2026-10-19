@@ -293,3 +293,8 @@ Outreach: see outreach-log.md (1 Yahoo pitch sent 01:55 London to the Australian
 Next: Burmese python card on species.html (only with verified, cited facts); WebSite + Organization JSON-LD check on the homepage; sourced beginner species table on pets.html; draft new Gmail pitches.
 
 | 2026-10-19 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 44 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
+
+## 2026-10-19 10:45 slot: daily fact article
+- Published https://snakewise.org/blog/how-do-egg-eating-snakes-eat-eggs.html (target query "how do egg-eating snakes eat eggs"), ~1,170 words, answer-first, original SVG diagram, Article (6 ScholarlyArticle citations) + FAQPage + BreadcrumbList JSON-LD, internal links to anatomy, species, habitats, ID guide, safety, research, shop and two blog posts. All 6 papers verified via Crossref/PubMed plus full text (Gartner & Greene 2008, Topper et al. 2026 PNAS) or abstracts (Barends & Maritz 2021/2025, Krupa & Slabach 2023, de Queiroz & Rodríguez-Robles 2006). Gans 1952 mentioned only as summarised by Gartner & Greene (not opened).
+- Added to blog index, sitemap.xml, llms.txt; live 200 confirmed; IndexNow HTTP 200 (post, blog/, sitemap, llms.txt).
+- Animal Sites group chat no longer exists (since 9 Oct), so the group post was handed to the parent.
