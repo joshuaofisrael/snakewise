@@ -289,7 +289,7 @@ Daily news post: /blog/burmese-python-removal-index-large-females-study.html ("S
 - habitats.html#wetlands gains one sentence on invasive Burmese pythons in South Florida linking the post (lastmod 2026-10-19).
 - Blog index card + BlogPosting, sitemap (post, blog/, habitats), llms.txt. Commit ad2fe01. Live HTTP 200 with DOI, LLC footer and beacon.
 - IndexNow HTTP 200 (post, blog/, habitats, sitemap, llms.txt, myths, species, teachers/, games/, research/).
-Outreach: see outreach-log.md (1 Yahoo send dispatched to the Australian Herpetological Society). No new pitches drafted: candidates checked (Calusa Herp Society links page, site down; Gopher Tortoise Council Upland Snake Initiative, contact form only; SREL herp site, only an ID-request address) had no suitable published role address. Unsent queue is now short (Gmail: Gatorland; Yahoo: Tennessee HS, Georgia RS, Virginia HS), so the next run should draft 2–3, Gmail first.
+Outreach: see outreach-log.md (1 Yahoo pitch sent 01:55 London to the Australian Herpetological Society, confirmed in Sent). No new pitches drafted: candidates checked (Calusa Herp Society links page, site down; Gopher Tortoise Council Upland Snake Initiative, contact form only; SREL herp site, only an ID-request address) had no suitable published role address. Unsent queue is now short (Gmail: Gatorland; Yahoo: Tennessee HS, Georgia RS, Virginia HS), so the next run should draft 2–3, Gmail first.
 Next: Burmese python card on species.html (only with verified, cited facts); WebSite + Organization JSON-LD check on the homepage; sourced beginner species table on pets.html; draft new Gmail pitches.
 
 | 2026-10-19 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 44 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
