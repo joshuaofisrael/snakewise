@@ -313,3 +313,12 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 ## 2026-10-20 — Safety warning box
 - Added verbatim '⚠️ Safety Warning & Disclaimer' box (#safety-warning, role=note) under the H1/lead on species.html, venomous-or-not.html, Lookalike Lab, 14 species blog posts and _templates/blog-post.html (new_post.py inherits it). Added venom-caveat line linking #safety-warning beside the species table, all 6 regional ID tables and the Lookalike quiz. CSS in style.css (amber/red, AA contrast, mobile rule).
 - Skipped: blog/index.html (listing), can-snakes-hear, snake-fungal-disease study (general topics, not species profiles).
+
+## 2026-10-20 (~10:55–11:15 BST) — Daily fact article: garter snake mating balls
+- Post: /blog/why-do-garter-snakes-form-mating-balls.html ("Why Do Garter Snakes Form Mating Balls? The Narcisse Snake Dens Explained"), ~1,200 words, answer-first, 5-question FAQ, safety warning box (template) + venom-caveat line, no images.
+- Query targets: "why do garter snakes form mating balls", "garter snake mating ball", "Narcisse snake dens", "she-male garter snake".
+- Sources (each opened via abstract/full text; claims limited to what they state): Shine et al. 2001 Nature doi:10.1038/35104687 (Nature page summary); Mason et al. 1989 Science doi:10.1126/science.2749261; Mason & Crews 1985 Nature doi:10.1038/316059a0; Shine, O'Connor & Mason 2000 Can J Zool doi:10.1139/z00-089; Shine et al. 2001 Evolution doi:10.1554/0014-3820(2001)055[0598:BITSDE]2.0.CO;2; Shine, Olsson & Mason 2000 BJLS doi:10.1111/j.1095-8312.2000.tb01229.x; Friesen et al. 2013 BJLS doi:10.1111/bij.12089; Shine et al. 2003 BES doi:10.1007/s00265-003-0620-5 (title claim only); Shine et al. 2004 Ecology and Society doi:10.5751/ES-00624-090109 (full text); Manitoba Natural Resources Narcisse page; Canadian Geographic.
+- Article + FAQPage JSON-LD (9 ScholarlyArticle citations, about Taxon), og:type article, BreadcrumbList. Blog index card + BlogPosting, sitemap (blog/ lastmod 20 Oct), llms.txt. Commit b27ca1b. Live HTTP 200.
+- IndexNow pinged (post, blog/, sitemap, llms.txt).
+- Group post skipped: Animal Sites group chat no longer exists (since 9 Oct).
+- Next: no pillar page mentions garter snakes yet; add a red-sided garter snake card on species.html linking this post (SEO run).
