@@ -309,3 +309,7 @@ Daily news post: /blog/dwarf-reed-snakes-cartwheel-escape-study.html ("Study: Ti
 - IndexNow HTTP 200 (14 URLs: post, blog/, movement, anatomy, sitemap, llms.txt, home, species, safety, ID guide, myths, habitats, teachers/, research/).
 Outreach: see outreach-log.md. New-pitch research: Hoosier Herp Society Links & Materials (contact form only, no published address) and Chicago Herpetological Society (only a named officer's personal address) dropped; state DNR/extension snake pages had no external links section. No new drafts; Gmail queue is empty.
 Next: Burmese python card on species.html (verified, cited); sourced beginner species table on pets.html; draft new Gmail pitches (zoo education/nature centre resource pages).
+
+## 2026-10-20 — Safety warning box
+- Added verbatim '⚠️ Safety Warning & Disclaimer' box (#safety-warning, role=note) under the H1/lead on species.html, venomous-or-not.html, Lookalike Lab, 14 species blog posts and _templates/blog-post.html (new_post.py inherits it). Added venom-caveat line linking #safety-warning beside the species table, all 6 regional ID tables and the Lookalike quiz. CSS in style.css (amber/red, AA contrast, mobile rule).
+- Skipped: blog/index.html (listing), can-snakes-hear, snake-fungal-disease study (general topics, not species profiles).

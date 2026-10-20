@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a blog post from _templates/blog-post.html (footer includes Contact us + LLC ownership line + legal links).
+"""Create a blog post from _templates/blog-post.html (includes the #safety-warning box near the top; footer includes Contact us + LLC ownership line + legal links).
 Usage: python3 _templates/new_post.py SLUG "Title" "Meta description" "Answer-first lead" body.html
 Then add https://snakewise.org/blog/SLUG.html to sitemap.xml and run ./indexnow.sh <url>."""
 import sys,os,html,datetime
