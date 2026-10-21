@@ -322,3 +322,9 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - IndexNow pinged (post, blog/, sitemap, llms.txt).
 - Group post skipped: Animal Sites group chat no longer exists (since 9 Oct).
 - Next: no pillar page mentions garter snakes yet; add a red-sided garter snake card on species.html linking this post (SEO run).
+
+## 2026-10-21 (~01:55–02:05 BST) — Daily SEO (lean, scarce mode)
+- species.html: added a red-sided garter snake profile card (#red-sided-garter-snake) using only facts already verified in the 20 Oct mating-balls post, linking to it; added a jump link; lead reworded so the "12 species" count matches the table. Sitemap lastmod 2026-10-21. Commit 7cc2f9d, live confirmed. IndexNow pinged (species, sitemap).
+- Beacon check: all tracked HTML pages have the CF beacon. Old home address grep: clean.
+- Daily news post: skipped (lean mode until 22 Oct reset; no can't-miss snake news).
+- Outreach: Yahoo send skipped (scarce mode, browser sessions cut to a quarter); no new drafts (Yahoo queue: Georgia RS, Virginia HS; Gmail queue empty).
