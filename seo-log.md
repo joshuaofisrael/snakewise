@@ -345,3 +345,7 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - **Address grep:** '38609' / 'Horton' had 1 occurrence, a wording mention in this log (line 178), replaced with "old home address grep clean". The repo, including _templates, is now clean. Confirmed live on seo-log.md.
 - **Outreach:** 0 new drafts (none met the bar), details in outreach-drafts-2026-10-23.md. Nothing sent.
 - **Next:** a sourced beginner species table on pets.html, and a WebSite+Organization JSON-LD check on the homepage.
+
+## 2026-10-23 AdSense site code
+- Commit 9b42964: AdSense script + google-adsense-account meta in <head> of all 52 HTML pages (incl. _templates/blog-post.html); /ads.txt added; privacy.html Advertising section + cookie wording; no-ads claims neutralised (disclaimer, games, teachers, fact sheet). No ad units, no consent banner script.
+- IndexNow: HTTP 200 for 49 URLs (all changed indexable pages).
