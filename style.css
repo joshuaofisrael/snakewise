@@ -47,3 +47,16 @@ figure.photo{margin:1.2rem 0;text-align:center}figure.photo img{max-width:100%;h
 .venom-caveat{border-left:5px solid #b91c1c;background:#fef2f2;color:#1c1917;padding:.5rem .75rem;margin:.75rem 0;font-weight:600}
 .venom-caveat a{color:#991b1b;text-decoration:underline}
 @media (max-width:600px){.safety-warning{padding:.85rem;font-size:.95rem}.safety-warning h2{font-size:1.1rem}}
+/* AI-generated illustration photos (mood/habitat only) */
+figure.photo.ai{margin:1.4rem 0;padding:0;text-align:center}
+figure.photo.ai img{display:block;width:100%;max-width:100%;height:auto;border-radius:18px;box-shadow:0 8px 24px rgba(26,11,46,.28),0 0 0 2px var(--cyan);transition:transform .2s ease,box-shadow .2s ease}
+figure.photo.ai img:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(26,11,46,.34),0 0 0 3px var(--lime)}
+figure.photo.ai figcaption{font-size:.8rem;line-height:1.4;color:var(--muted);margin-top:.45rem}
+.photo-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin:1.4rem 0}
+.photo-row figure.photo.ai{margin:0}
+.photo-row figure.photo.ai img{aspect-ratio:4/3;object-fit:cover}
+figure.photo img{border-radius:20px}
+.hero{border-radius:22px}
+.tile:focus-visible,.btn:focus-visible,figure.photo a:focus-visible{outline:3px solid var(--head);outline-offset:3px}
+main>*+*{scroll-margin-top:1rem}
+@media (prefers-reduced-motion:reduce){figure.photo.ai img,.tile,.btn{transition:none}figure.photo.ai img:hover,.tile:hover,.btn:hover{transform:none}}

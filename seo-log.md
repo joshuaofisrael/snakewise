@@ -328,3 +328,10 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - Beacon check: all tracked HTML pages have the CF beacon. Old home address grep: clean.
 - Daily news post: skipped (lean mode until 22 Oct reset; no can't-miss snake news).
 - Outreach: Yahoo send skipped (scarce mode, browser sessions cut to a quarter); no new drafts (Yahoo queue: Georgia RS, Virginia HS; Gmail queue empty).
+
+## 2026-10-23 (~01:10–01:30 BST) — Photos, design polish, contact check (Joshua's rules via PA)
+- 11 hyper-realistic AI photos (WebP, 89–150 KB each, 1.42 MB total) in /img/ai/, each checked visually (no cartoons/anatomy errors). Mood/habitat only, small caption "AI-generated image for illustration, not for identification." Lazy-loaded below the fold (hero images eager), width/height + descriptive alt. None on venomous-or-not.html, Lookalike Lab or other ID pages.
+- Pages: index.html (hero + 3-up row), species.html, blog/index.html, 5 newest posts (garter mating balls, dwarf reed snakes, egg-eating snakes, Burmese python removal, longest fangs). Template + new_post.py updated (optional IMAGE + ALT args, figure omitted if none).
+- style.css only: rounded corners, soft shadows, hover states, focus-visible, reduced-motion respected.
+- Contact: /contact.html FormSubmit form to joshuaofisrael@gmail.com verified (honeypot, privacy line + link, _next=/thanks.html, thanks page indexable). Footer link to /contact.html present on all 51 HTML pages. Removed a duplicate breadcrumb on contact.html. Test AJAX POST ("SnakeWise contact form test") returned success:true; no new activation needed. Endpoint alias NOT switched (would need a new activation click).
+- IndexNow pinged for changed URLs.
