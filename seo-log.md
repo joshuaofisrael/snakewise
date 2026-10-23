@@ -335,3 +335,13 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - style.css only: rounded corners, soft shadows, hover states, focus-visible, reduced-motion respected.
 - Contact: /contact.html FormSubmit form to joshuaofisrael@gmail.com verified (honeypot, privacy line + link, _next=/thanks.html, thanks page indexable). Footer link to /contact.html present on all 51 HTML pages. Removed a duplicate breadcrumb on contact.html. Test AJAX POST ("SnakeWise contact form test") returned success:true; no new activation needed. Endpoint alias NOT switched (would need a new activation click).
 - IndexNow pinged for changed URLs.
+
+## 2026-10-23 (~01:50 BST) — Daily SEO
+
+- **On-page (commit 8017224):** species.html gets a new "Burmese python (Python bivittatus), Invasive in South Florida" card (#burmese-python) and jump link. It uses only facts already verified in the 19 Oct Burmese python removal-index post, which it links to. A new FAQ, "Are Burmese pythons invasive in Florida?", is in both the visible FAQ and the FAQPage JSON-LD (8 Qs), with Article dateModified 2026-10-23. The Burmese post now links both the Burmese and reticulated python profiles. JSON-LD validated, live verified.
+- **News post (commit 2af136d):** /blog/rattlesnake-venom-personality-study.html covers Martin & Hayes 2026, Frontiers in Ethology, doi:10.3389/fetho.2026.1918065 (published 8 Oct 2026; full text opened). Secondary source is the Phys.org Frontiers Dialog piece (21 Oct 2026). The study is 48 southern Pacific rattlesnakes with 3 voluntary-bite trials each, and all 5 measures were repeatable (R about 0.26–0.47). Original wording, no quotes, limits stated, no image. The AI macro had a round pupil, which would mislead on a pit viper. It carries NewsArticle JSON-LD, a visible date, the safety box, the LLC footer and the beacon. It's added to the blog index (card + BlogPosting), sitemap and llms.txt, with a contextual link from myths.html#baby-snakes (lastmod 2026-10-23). Live verified (HTTP 200, DOI, beacon).
+- **IndexNow:** HTTP 200 for 7 URLs: species, the Burmese post, the rattlesnake post, blog/, myths, sitemap.xml, llms.txt.
+- **Beacon check:** the Cloudflare Web Analytics beacon is on every HTML page, and new_post.py uses _templates/blog-post.html, which has it.
+- **Address grep:** '38609' / 'Horton' had 1 occurrence, a wording mention in this log (line 178), replaced with "old home address grep clean". The repo, including _templates, is now clean. Confirmed live on seo-log.md.
+- **Outreach:** 0 new drafts (none met the bar), details in outreach-drafts-2026-10-23.md. Nothing sent.
+- **Next:** a sourced beginner species table on pets.html, and a WebSite+Organization JSON-LD check on the homepage.
