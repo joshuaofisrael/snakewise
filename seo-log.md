@@ -175,7 +175,7 @@ Next: question-H2 + FAQ treatment for movement.html or habitats.html; sourced be
 - Commit 3ed51d5. Live HTTP 200 (Bingbot UA): title, FAQPage, doi:10.1016/j.jtherbio.2023.103468, LLC footer present. IndexNow HTTP 200 (post, blog/, sitemap, llms.txt, species).
 
 ## 2026-10-15 (~02:00 BST) — Daily SEO: movement page question H2s + FAQ; news post on venom and warning colours
-Data: still no Search Console query data. Repo in sync with origin; no Horton Drive address anywhere in the repo (grep clean).
+Data: still no Search Console query data. Repo in sync with origin; old home address grep clean.
 Pick (priority 2/7, on-page structure for a core evergreen page, same pattern as myths/pets/glossary): movement.html had a generic H1 "How Snakes Move", label-only H2s, no anchors, no FAQ, Article-only JSON-LD. No new facts added; FAQ answers reuse the page's existing wording.
 - H1 "How do snakes move?"; question-led meta + og description.
 - Section ids (#lateral-undulation, #concertina, #rectilinear, #sidewinding, #specialists) with descriptive question-style H2s and a "Jump to" nav (myths markup).
