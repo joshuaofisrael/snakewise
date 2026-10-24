@@ -60,3 +60,5 @@ figure.photo img{border-radius:20px}
 .tile:focus-visible,.btn:focus-visible,figure.photo a:focus-visible{outline:3px solid var(--head);outline-offset:3px}
 main>*+*{scroll-margin-top:1rem}
 @media (prefers-reduced-motion:reduce){figure.photo.ai img,.tile,.btn{transition:none}figure.photo.ai img:hover,.tile:hover,.btn:hover{transform:none}}
+
+.guidance-note{border-left:5px solid #b45309;background:#fffbeb;color:#1c1917;padding:.6rem .9rem;border-radius:6px;margin:1rem 0;line-height:1.5}
