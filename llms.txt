@@ -1,6 +1,6 @@
 # SnakeWise
 
-> SnakeWise is a free, original educational website about snakes for curious beginners and enthusiasts. It explains snake anatomy, movement, venom and constriction, notable species, habitats, common myths, safety around wild snakes and pet snake basics, and offers a region-by-region guide to telling venomous snakes from harmless lookalikes. SnakeWise is a brand owned and operated by Joshua Israel Ventures LLC, which does all SnakeWise business.
+> SnakeWise is a free, original educational website about snakes for curious beginners and enthusiasts. It explains snake anatomy, movement, venom and constriction, notable species, habitats, common myths, safety around wild snakes and pet snake basics, and offers a region-by-region guide to telling venomous snakes from harmless lookalikes.
 
 The content is general education, not medical advice or a field identification key.
 
@@ -55,8 +55,8 @@ The content is general education, not medical advice or a field identification k
 - [Snake gear shop](https://snakewise.org/shop.html): coming soon; no products are available yet
 
 ## About & legal
-- [About SnakeWise](https://snakewise.org/about.html): what the site covers, how facts are sourced, and who runs it (a brand of Joshua Israel Ventures LLC)
-- [Contact SnakeWise](https://snakewise.org/contact.html): contact form (name, email, message) and email address joshuaofisrael@gmail.com for corrections, questions and topic suggestions
+- [About SnakeWise](https://snakewise.org/about.html): what the site covers, how facts are sourced, and where to find legal information
+- [Contact SnakeWise](https://snakewise.org/contact.html): contact form (name, email, message) for corrections, questions and topic suggestions
 - [Terms of Use](https://snakewise.org/terms.html): educational information only, no warranties, Florida law
 - [Privacy Policy](https://snakewise.org/privacy.html): no accounts or ad cookies; cookieless Cloudflare Web Analytics; contact form via FormSubmit; GitHub Pages logs, Google Fonts, local game scores
 - [Disclaimer](https://snakewise.org/disclaimer.html): accuracy, snake ID and safety, advertising and affiliate (FTC) disclosure

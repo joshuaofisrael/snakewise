@@ -1,6 +1,6 @@
 # SnakeWise games: credits and licences
 
-Games are original works © 2026 Joshua Israel Ventures LLC. SnakeWise is a brand owned and operated by Joshua Israel Ventures LLC.
+Games are original works © 2026 SnakeWise.
 
 | Game | URL | Code | Art | Sound |
 |---|---|---|---|---|

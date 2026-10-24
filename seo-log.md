@@ -49,7 +49,7 @@ Watch: once GSC data arrives, check which region queries show impressions; split
 
 ## 2026-10-08 — Redesign, legal pages, games, teachers hub
 - Design: the pastel restyle (aadb939) was replaced by a bright neon look (43a6cbe): lime/cyan/magenta glow on a light #fbfff2 base, dark neon footer, Fredoka headings, original SVG doodles. Body text 18.19:1 contrast and all text pairs WCAG AA; prefers-reduced-motion respected. style.css 2,590 -> 13,731 bytes.
-- Legal: footer on every page now reads "© 2026 Joshua Israel Ventures LLC. All rights reserved. SnakeWise is owned and operated by Joshua Israel Ventures LLC." with Terms, Privacy, Disclaimer, About and Contact (mailto). New pages: /terms.html, /privacy.html, /disclaimer.html, /about.html (aadb939). Florida LLC, Florida governing law and venue (eba4fc4). JSON-LD publisher = Joshua Israel Ventures LLC (brand SnakeWise).
+- Legal: footer on every page now reads "© 2026 the LLC. All rights reserved. SnakeWise is owned and operated by the LLC." with Terms, Privacy, Disclaimer, About and Contact (mailto). New pages: /terms.html, /privacy.html, /disclaimer.html, /about.html (aadb939). Florida LLC, Florida governing law and venue (eba4fc4). JSON-LD publisher = the LLC (brand SnakeWise).
 - Games (908583b): /games/ hub plus Lookalike Lab, Scale Snap and Shed Shuffle (original code and art, VideoGame JSON-LD, LLC publisher; credits at /games/CREDITS.md). game.html unchanged.
 - Teachers (68d5dbc): /teachers/ hub, fact sheet, adaptations worksheet, answer keys, vocabulary, NGSS lesson ideas (PE codes checked on nextgenscience.org); /research/ with DOIs checked via Crossref and doi.org; cite boxes and last-reviewed dates; Teachers in nav and home tile.
 - sitemap.xml now 31 URLs; llms.txt has About & legal, Games and For teachers sections.
@@ -60,7 +60,7 @@ Watch: once GSC data arrives, check which region queries show impressions; split
 - 8 freely licensed Wikimedia Commons snake photos added as WebP (all <=800px wide, all <80 KB): rough green snake (home hero), ball python + California kingsnake (pets), corn snake + eastern hognose (species), eastern garter snake (myths), ring-necked snake (habitats), rosy boa (teachers/). Each has explicit width/height, descriptive alt text, loading=lazy, decoding=async and a caption with author, licence link and a link to /credits/.
 - Licences: CC BY 2.0 x3 (Judy Gallagher; Linda Tanner; Virginia State Parks staff), CC BY 3.0 x1 (Holger Krisp), CC0 1.0 x3 (5snake5 x2; Jasper Shide), Public Domain Mark x1 (Benjamin Genter). Ring-necked snake cropped 48px at the top to remove the author's name watermark. Hognose re-encoded at 640px (800px could not get under 80 KB).
 - New https://snakewise.org/credits/ (WebPage JSON-LD, LLC publisher): every photo with author, Commons source/original, licence link and changes; fonts (Fredoka, OFL); original artwork/games note; rights-holder contact.
-- "Credits" link added to the footer on every page and the blog post template; /credits/ added to sitemap.xml (32 URLs) and llms.txt. No URL changes. Legal footer links intact. game.html (The Slither Game) untouched per Joshua: byte-identical live.
+- "Credits" link added to the footer on every page and the blog post template; /credits/ added to sitemap.xml (32 URLs) and llms.txt. No URL changes. Legal footer links intact. game.html (The Slither Game) untouched per the owner: byte-identical live.
 - Verified live with single curls: /credits/, /, pets, species, myths, habitats, teachers/, WebPs, sitemap, llms.txt all HTTP 200.
 - IndexNow: 8 URLs (/credits/, /, pets, species, myths, habitats, teachers/, llms.txt) -> HTTP 200.
 - Build script fixes: run_after_1945.sh time guard now blocks only weekdays 14:00-19:45 Europe/London (it blocked all weekday hours before 19:45 and used the box's CEST clock), and its inner flock was removed (it re-took the same lock as the caller and would deadlock).
@@ -187,7 +187,7 @@ Daily news post: /blog/venomous-snakes-stand-out-colour-study.html ("Study: Veno
 - Own words, short attributed quotes, no images. NewsArticle JSON-LD with citations; visible publish date; internal links to ID guide, safety, myths, venom-constriction, Lookalike Lab, glossary#venom. Safety framing: colour alone is not an ID rule.
 - Blog index card + BlogPosting, sitemap (post + blog/ lastmod), llms.txt. Commit 4e5e3fd. Live HTTP 200 with DOI and LLC footer.
 - IndexNow HTTP 200 (movement, post, blog/, sitemap, llms.txt).
-Outreach: 3 personalised pitches prepared and validated, not sent (see outreach-log.md); handed to Joshua to send.
+Outreach: 3 personalised pitches prepared and validated, not sent (see outreach-log.md); handed to the owner to send.
 Next: link this news post from venomous-or-not.html; give habitats.html the question-H2 + FAQ treatment.
 
 | 2026-10-15 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 37 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
@@ -212,7 +212,7 @@ Daily news post: /blog/sri-lankan-spectacled-cobras-distinct-lineage-study.html 
 - Own words, short attributed quotes, no images. NewsArticle JSON-LD with 4 citations; visible publish date; internal links to king cobra post, glossary#elapid, habitats#distribution, safety, ID guide #south-asia, venom-constriction, species, colour-study post.
 - Blog index card + BlogPosting, sitemap (post + blog/ lastmod), llms.txt. Commits 6720bc6 + follow-up (ID guide anchor). Live HTTP 200 with DOI, NewsArticle and LLC footer.
 - IndexNow HTTP 200 (habitats, cobra post, blog/, sitemap, llms.txt).
-Outreach: 3 new personalised pitches prepared and validated, not sent (Australian Herpetological Society, Canadian Herpetological Society broken-link pitch, Tennessee Herpetological Society); see outreach-drafts-2026-10-16.md and outreach-log.md. Handed to Joshua to send.
+Outreach: 3 new personalised pitches prepared and validated, not sent (Australian Herpetological Society, Canadian Herpetological Society broken-link pitch, Tennessee Herpetological Society); see outreach-drafts-2026-10-16.md and outreach-log.md. Handed to the owner to send.
 Next: species.html (core hub) question-H2 + FAQ treatment or a sourced comparison-table refresh; link the cobra news post from the spectacled cobra mention if species.html gains one; sourced beginner species table on pets.html once sources are checked.
 
 | 2026-10-16 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 40 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
@@ -236,13 +236,13 @@ Daily news post: /blog/snakes-escalate-warnings-before-biting-study.html ("Study
 - Own words, short attributed quotes from the abstract, no images. NewsArticle JSON-LD with 3 citations; visible publish date; internal links to safety, ID guide, myths#rattles, can-snakes-hear, venom-constriction, glossary#viper, colour-study post, species#eastern-diamondback, research. Framed as test-setting research, not a rule for human encounters.
 - Blog index card + BlogPosting, sitemap (post + blog/ + safety lastmod), llms.txt. Safety page "If you see a snake" gains one sentence linking the post. Commit 32e1ae2. Live HTTP 200 with DOI, NewsArticle and LLC footer.
 - IndexNow HTTP 200 (species, post, blog/, safety, sitemap, llms.txt).
-Outreach: 2 new personalised pitches prepared and validated, not sent (PARC education resources; Georgia Reptile Society conservation page); see outreach-drafts-2026-10-17.md and outreach-log.md. Only 2 targets met the bar, so no third was forced. Handed to Joshua to send after Shabbat.
+Outreach: 2 new personalised pitches prepared and validated, not sent (PARC education resources; Georgia Reptile Society conservation page); see outreach-drafts-2026-10-17.md and outreach-log.md. Only 2 targets met the bar, so no third was forced. Handed to the owner to send after Shabbat.
 Next: link the warning-sounds post from myths.html#rattles or the anatomy senses section if it fits; sourced beginner species table on pets.html once sources are checked; consider a short species.html note linking the spectacled cobra news post if a cobra comparison row is added with sources.
 
 | 2026-10-17 | 7d | n/a (no GSC data yet) | n/a | n/a | n/a | 42 URLs in sitemap | n/a | n/a | 0 | 0 (shop not live) |
 
 ## 2026-10-18 (~02:05 BST) — Daily SEO: BreadcrumbList structured data sitewide; myths internal links; news post on snake fungal disease
-Data: still no Search Console query data, and still no analytics beacon. Re-tested the Cloudflare Web Analytics API: both box tokens (CLOUDFLARE_API_TOKEN, CLOUDFLARE_ANALYTICS_TOKEN) still return "Authentication error" (code 10000) on rum/site_info/list for account 8cd83313…, so a bot can't create the snakewise.org site; a beacon token is still needed from Personal assistant / Joshua (privacy page must be updated when it's added). Repo in sync with origin. Repo grep for the old home address: clean. Following the 18 Oct SEO max directive (/workspace/seo/seo-max-directive-2026-10-18.md).
+Data: still no Search Console query data, and still no analytics beacon. Re-tested the Cloudflare Web Analytics API: both box tokens (CLOUDFLARE_API_TOKEN, CLOUDFLARE_ANALYTICS_TOKEN) still return "Authentication error" (code 10000) on rum/site_info/list for account 8cd83313…, so a bot can't create the snakewise.org site; a beacon token is still needed from Personal assistant / the owner (privacy page must be updated when it's added). Repo in sync with origin. Repo grep for the old home address: clean. Following the 18 Oct SEO max directive (/workspace/seo/seo-max-directive-2026-10-18.md).
 Pick (directive item 2, structured data; priority 7 architecture): no page had BreadcrumbList JSON-LD. Added Home > [Blog|Teachers|Games] > Page breadcrumbs to all 40 non-home pages (names from each page's H1; section index pages as Blog/Teachers/Games/Research/Credits) and to _templates/blog-post.html so future posts get it. All JSON-LD on the site parses (0 errors). Schema-only change, so sitemap lastmod was not bumped for those pages (no manufactured freshness).
 - myths.html (the 17 Oct "Next" item): #deaf now links /blog/can-snakes-hear.html; #rattles gains one sentence restating the warning-sound study's already-published findings with a link to the post. Myths page previously linked no blog posts. Sitemap lastmod 2026-10-18.
 - Commit e5de109. Live HTTP 200, BreadcrumbList present on sampled pages.
@@ -329,7 +329,7 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - Daily news post: skipped (lean mode until 22 Oct reset; no can't-miss snake news).
 - Outreach: Yahoo send skipped (scarce mode, browser sessions cut to a quarter); no new drafts (Yahoo queue: Georgia RS, Virginia HS; Gmail queue empty).
 
-## 2026-10-23 (~01:10–01:30 BST) — Photos, design polish, contact check (Joshua's rules via PA)
+## 2026-10-23 (~01:10–01:30 BST) — Photos, design polish, contact check (the owner's rules via PA)
 - 11 hyper-realistic AI photos (WebP, 89–150 KB each, 1.42 MB total) in /img/ai/, each checked visually (no cartoons/anatomy errors). Mood/habitat only, small caption "AI-generated image for illustration, not for identification." Lazy-loaded below the fold (hero images eager), width/height + descriptive alt. None on venomous-or-not.html, Lookalike Lab or other ID pages.
 - Pages: index.html (hero + 3-up row), species.html, blog/index.html, 5 newest posts (garter mating balls, dwarf reed snakes, egg-eating snakes, Burmese python removal, longest fangs). Template + new_post.py updated (optional IMAGE + ALT args, figure omitted if none).
 - style.css only: rounded corners, soft shadows, hover states, focus-visible, reduced-motion respected.
@@ -342,7 +342,7 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - **News post (commit 2af136d):** /blog/rattlesnake-venom-personality-study.html covers Martin & Hayes 2026, Frontiers in Ethology, doi:10.3389/fetho.2026.1918065 (published 8 Oct 2026; full text opened). Secondary source is the Phys.org Frontiers Dialog piece (21 Oct 2026). The study is 48 southern Pacific rattlesnakes with 3 voluntary-bite trials each, and all 5 measures were repeatable (R about 0.26–0.47). Original wording, no quotes, limits stated, no image. The AI macro had a round pupil, which would mislead on a pit viper. It carries NewsArticle JSON-LD, a visible date, the safety box, the LLC footer and the beacon. It's added to the blog index (card + BlogPosting), sitemap and llms.txt, with a contextual link from myths.html#baby-snakes (lastmod 2026-10-23). Live verified (HTTP 200, DOI, beacon).
 - **IndexNow:** HTTP 200 for 7 URLs: species, the Burmese post, the rattlesnake post, blog/, myths, sitemap.xml, llms.txt.
 - **Beacon check:** the Cloudflare Web Analytics beacon is on every HTML page, and new_post.py uses _templates/blog-post.html, which has it.
-- **Address grep:** '38609' / 'Horton' had 1 occurrence, a wording mention in this log (line 178), replaced with "old home address grep clean". The repo, including _templates, is now clean. Confirmed live on seo-log.md.
+- **Address grep:** the old-address grep had 1 occurrence, a wording mention in this log (line 178), replaced with "old home address grep clean". The repo, including _templates, is now clean. Confirmed live on seo-log.md.
 - **Outreach:** 0 new drafts (none met the bar), details in outreach-drafts-2026-10-23.md. Nothing sent.
 - **Next:** a sourced beginner species table on pets.html, and a WebSite+Organization JSON-LD check on the homepage.
 

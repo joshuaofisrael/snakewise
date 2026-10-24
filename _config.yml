@@ -1,0 +1,9 @@
+# Keep internal working files off the public site
+exclude:
+  - seo-log.md
+  - fact-reports.md
+  - monetization-pack.md
+  - indexnow.sh
+  - outreach-*.md
+  - screens
+  - edu
