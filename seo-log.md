@@ -362,3 +362,11 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - Daily news post: skipped. Search only surfaced Catalogue of Life index entries for new Dendrelaphis/Lycodon/Oligodon species, not opened primary papers with confirmed dates; not enough to meet the verified-source bar this run.
 - Outreach: paused per standing order; nothing sent or drafted. Old-address grep: clean.
 - Next: sourced beginner species table on pets.html; consider a 48px PNG favicon fallback once an image converter is available.
+
+## 2026-10-25 (~10:47–11:05 GMT) — Daily snake fact article
+- **New post (commit a9509e5):** /blog/how-venomous-is-the-inland-taipan.html, "How Venomous Is the Inland Taipan? The World's Most Toxic Snake Venom" (~1,150 words, answer-first, FAQ). Built with _templates/new_post.py; Article JSON-LD enriched (description, dates, about Taxon, 9 ScholarlyArticle citations) + FAQPage; og:type article; Safety Warning box, venom-label caveat, bite-emergency note; footer matches garter post (no copyright line, no owner/LLC name). Beacon and AdSense tag retained. No image.
+- Added to blog/index.html (card + BlogPosting), sitemap.xml (lastmod 2026-10-25, blog/ lastmod bumped), llms.txt. JSON-LD and sitemap XML validated.
+- Live: HTTP 200 with new content. IndexNow pinged (post, blog/, sitemap.xml, llms.txt).
+- Sources opened: PubMed abstracts for Morrison 1983, Hodgson 2007, Bell 1998, Tan 1993, Mirtschin 1984, Weinstein 2017, Weinstein 2025, Johnston 2017; PMC full text for Paz 2025; Australian Museum and Reptile Database pages. Broad et al. 1979 LD50 table not used (no abstract reachable).
+- No outreach, no spend.
+
