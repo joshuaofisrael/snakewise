@@ -380,3 +380,10 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - Daily news post: skipped. The best candidate (white-throated egg-eater Dasypeltis albigularis, Mongabay 9 Oct) is about 17 days old, its primary paper wasn't opened, and an egg-eating snake post already exists.
 - Outreach: paused; nothing sent or drafted. No spend. Grep for "38609 Horton Drive": clean. No owner/LLC name and no © outside the legal pages.
 - Next: sourced beginner species table on pets.html.
+
+## 2026-10-26 (~10:50–11:00 GMT) — Daily snake fact article
+- **New post (commit 025ba2c):** /blog/what-is-the-longest-snake-in-the-world.html, "What Is the Longest Snake in the World? The Reticulated Python Explained" (~1,100 words of body before FAQ, answer-first, 5-Q FAQ). Built with _templates/new_post.py; Article JSON-LD enriched (description, dates, about Taxa, 8 ScholarlyArticle citations) + FAQPage; og:type article; Safety Warning box, venom-label caveat, constriction/bite emergency note; no copyright line, no owner/LLC name. Beacon and AdSense tag retained. No image.
+- Added to blog/index.html (card + BlogPosting), sitemap.xml (lastmod 2026-10-26, blog/ lastmod bumped), llms.txt. JSON-LD and sitemap XML validated.
+- Live: HTTP 200 after ~2 min Pages build. IndexNow HTTP 200 (post, blog/, sitemap.xml, llms.txt).
+- Sources opened: Natusch 2016 PLOS ONE full text; Headland & Greene 2011 PMC full text; Head 2009 PubMed abstract; Rivas 2023 abstract; Rivas 2024 Diversity full text; Rivas 2008 abstract; Barker 2012 (docslib text) + Foxon 2023 Bull CHS PDF; Smithsonian National Zoo and Reptile Database pages; Crossref metadata for all DOIs. Dropped: Shine 1999 (no abstract reachable), Guinness, ADW figures, Reynolds 2014 (abstract doesn't name Malayopython).
+- No outreach, no spend.
