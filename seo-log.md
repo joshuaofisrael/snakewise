@@ -387,3 +387,12 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - Live: HTTP 200 after ~2 min Pages build. IndexNow HTTP 200 (post, blog/, sitemap.xml, llms.txt).
 - Sources opened: Natusch 2016 PLOS ONE full text; Headland & Greene 2011 PMC full text; Head 2009 PubMed abstract; Rivas 2023 abstract; Rivas 2024 Diversity full text; Rivas 2008 abstract; Barker 2012 (docslib text) + Foxon 2023 Bull CHS PDF; Smithsonian National Zoo and Reptile Database pages; Crossref metadata for all DOIs. Dropped: Shine 1999 (no abstract reachable), Guinness, ADW figures, Reynolds 2014 (abstract doesn't name Malayopython).
 - No outreach, no spend.
+
+## 2026-10-26 (~13:50–14:05 GMT) — SEO push (Joshua via PA: 1 view yesterday)
+- **New page:** /blog/baby-copperhead-identification.html, "Baby Copperhead Identification: Yellow Tail, Bands and Look-Alikes" (targets "baby copperhead", "baby copperhead vs corn snake"; not previously covered). Answer-first, quick facts, copperhead vs corn snake table, bite-risk section, 5-Q FAQ. Article + FAQPage + Breadcrumb JSON-LD (validated), og:type article, Safety Warning box, venom-label caveat, bite emergency note; AdSense, beacon, favicon from template; no © / owner name.
+- Sources opened: Pisani & Riedle 2018 (doi 10.1660/062.121.0417 abstract); R. Soc. Open Sci. 2022 fetal caudal luring (doi 10.1098/rsos.220218 abstract); Greene et al. 2021 (PMID 33046301); Parrish & Carr 1967 JAMA abstract; Walker & Morrison 2011 (PMID 21463771); Seifert et al. 2009 (PMID 19514880); UGA SREL copperhead page; Missouri DOC field guide. Not claimed: "babies more dangerous" myth (no peer-reviewed support found; said so).
+- **Internal links:** new page linked from venomous-or-not.html (copperhead row), species.html (corn snake card), safety.html (If you see a snake), blog/snakes-escalate-warnings…, blog/rattlesnake-venom-personality…. Weakly linked posts fixed: species.html reticulated-python card → longest-snake post; inland-taipan card → taipan post.
+- **Meta descriptions tightened (≤160 chars, meta+og/twitter):** safety, venom-constriction, anatomy, burmese-python-removal, dwarf-reed-snakes, snake-fungal-disease, snakes-escalate-warnings, sri-lankan-cobras (8; most were truncating at 180–220 chars). Titles untouched.
+- blog/index.html (card + BlogPosting), sitemap.xml (new URL + lastmod bumps), llms.txt updated.
+- Noted, not changed: privacy.html still says "no accounts or forms" though contact form exists (legal page; flag for review).
+- No outreach, no spend, no heavy jobs.
