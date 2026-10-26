@@ -370,3 +370,13 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - Sources opened: PubMed abstracts for Morrison 1983, Hodgson 2007, Bell 1998, Tan 1993, Mirtschin 1984, Weinstein 2017, Weinstein 2025, Johnston 2017; PMC full text for Paz 2025; Australian Museum and Reptile Database pages. Broad et al. 1979 LD50 table not used (no abstract reachable).
 - No outreach, no spend.
 
+
+## 2026-10-26 (~01:50 GMT) — Daily SEO
+- **Deferred items:** NamedScan fixes (Joshua via PA, 25 Oct) DONE.
+- **Technical (commit 2078db1):** homepage "Snake FAQ" card (#faq, before </main>) with 6 Qs + separate FAQPage JSON-LD (@id https://snakewise.org/#faq); visible Q/A text verified identical to JSON-LD by script. Each answer has a Sources line. Bite and venom answers carry "Call local emergency services or poison control; don't rely on this site." Qs: snake bite first aid (NHS snake bites page, reviewed 17 Jul 2026; /safety.html); global snakebite burden (WHO fact sheet, 17 Sep 2026); most toxic venom (Morrison et al. 1983, PMID 6676477; taipan post); can snakes hear (Christensen et al. 2012, PMID 22189777; hearing post); fasting (McCue 2007, PMID 17644357; fasting post); smallest snake (Hedges 2008, Zootaxa 1841, Crossref abstract; smallest-snake post). All sources opened this run.
+- sameAs: none. No SnakeWise social profiles exist (repo grep for x/twitter/instagram/facebook/pinterest/youtube/tiktok/bsky/reddit was empty), so it was skipped.
+- AdSense head tags, beacon and site styling unchanged. Both JSON-LD blocks parse. Sitemap homepage lastmod is now 2026-10-26. Live on snakewise.org (FAQPage + #faq present).
+- IndexNow: HTTP 200 (homepage + sitemap.xml).
+- Daily news post: skipped. The best candidate (white-throated egg-eater Dasypeltis albigularis, Mongabay 9 Oct) is about 17 days old, its primary paper wasn't opened, and an egg-eating snake post already exists.
+- Outreach: paused; nothing sent or drafted. No spend. Grep for "38609 Horton Drive": clean. No owner/LLC name and no © outside the legal pages.
+- Next: sourced beginner species table on pets.html.
