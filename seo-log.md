@@ -396,3 +396,4 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - blog/index.html (card + BlogPosting), sitemap.xml (new URL + lastmod bumps), llms.txt updated.
 - Noted, not changed: privacy.html still says "no accounts or forms" though contact form exists (legal page; flag for review).
 - No outreach, no spend, no heavy jobs.
+- Live verified by curl (page, species.html link, sitemap). IndexNow HTTP 200 (15 URLs).
