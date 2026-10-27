@@ -407,3 +407,5 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 
 ## 2026-10-27 (daily article, 10:45 slot)
 - Published /blog/can-snakes-see-heat.html, "Can Snakes See Heat? How Pit Vipers Sense Infrared" (~1,200 words, Article with 11 citations + FAQPage + Breadcrumb JSON-LD, safety box, internal links to species, anatomy, habitats, safety, ID guide, shop, can-snakes-hear, sidewinders). Main source Gracheva et al. 2010 Nature doi:10.1038/nature08943; all 11 papers' abstracts read on PubMed. No image. Added to blog index, sitemap.xml, llms.txt, fact-reports.md. Group post skipped (Animal Sites chat no longer exists). No spend.
+
+- Live check: /blog/can-snakes-see-heat.html returned 200; IndexNow HTTP 200 (4 URLs).
