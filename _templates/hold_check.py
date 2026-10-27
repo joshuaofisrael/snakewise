@@ -7,13 +7,51 @@ Approval: a held item may publish only if /workspace/content-review/approvals.js
 {"site":"snakewise.org","sha256":<sha256 of the exact file>} - written by Joshua's approval, never by a bot.
 CODE-ENFORCED: 2 (contact/address/phone patterns), 3 (every <img> needs a licence record), 4 (must cite >=1
 external source link; no source = hold), 6 (any election wording), 8 (embargo/notice wording + restrictions list),
-plus keyword tripwires for 1, 5, 7. Rules 1, 5, 7 (and source accuracy under 4) still need judgement."""
+plus keyword tripwires for 1, 5, 7. Rules 1, 5, 7 (and source accuracy under 4) still need judgement.
+SEVERITY TIERS (AMENDMENT, Joshua 27 Oct 2026 18:25):
+  HIGH = rules 1, 2, 6, 8 -> HOLD_REVIEW for Joshua only; never self-cleared (approvals.jsonl, approved_by Joshua, exact sha256).
+  MODERATE = rules 3, 4, 5, 7 -> bot must FIX first. Objective detectors (3 licence, 4 sources) must stop firing: the fix
+    is the only route (no review can clear them). Keyword tripwires (5, 7) that remain after a fix go to the independent
+    ChatGPT reviewer (/workspace/content-review/bin/chatgpt_review.py); exit 0 SAFE -> clearance logged to
+    moderate-clearances.jsonl tied to the sha256 and the file may publish; anything else -> HOLD_REVIEW for Joshua.
+  hold_check.py moderate FILE "rule + fix made" [TITLE]   exit 0 = cleared, 3 = held for Joshua"""
 import sys,os,re,json,hashlib,datetime,shutil
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CR="/workspace/content-review"; Q=CR+"/queue.jsonl"; AP=CR+"/approvals.jsonl"; DR=CR+"/drafts/snakewise"
 RESTRICT=CR+"/restrictions-snakewise.txt"  # one slug/path per line: blocked from (re)publication
 OWN_DOMAINS=("snakewise.org","schema.org","googletagmanager.com","googlesyndication.com","google.com","formsubmit.co","fonts.googleapis.com","fonts.gstatic.com","w3.org","cloudflareinsights.com")
 SITE_EMAIL_OK=("@snakewise.org","joshuaofisrael@gmail.com")  # site's published owner contact on legal/contact pages
+MC=CR+"/moderate-clearances.jsonl"; REVIEW=CR+"/bin/chatgpt_review.py"
+HIGH={1,2,6,8}; MODERATE={3,4,5,7}; OBJECTIVE={3,4}  # objective detectors: fix until they stop firing
+def sev(R): return "HIGH" if any(n in HIGH or n==0 for n,_,_ in R) else ("MODERATE" if R else None)
+def moderate_cleared(p,R=None):
+    """True only if every finding is a MODERATE tripwire and a ChatGPT SAFE clearance exists for this exact sha256."""
+    R=check(p) if R is None else R
+    if not R or sev(R)!="MODERATE" or any(n in OBJECTIVE for n,_,_ in R) or not os.path.exists(MC): return False
+    h=sha(p)
+    for l in open(MC):
+        try: j=json.loads(l)
+        except: continue
+        if j.get("site")=="snakewise.org" and j.get("sha256")==h and str(j.get("chatgpt_verdict","")).upper().startswith("SAFE"): return True
+    return False
+def moderate_review(p,fix,title=None):
+    """Run the independent reviewer on a MODERATE-only item. Returns (cleared:bool, verdict:dict)."""
+    import subprocess
+    R=check(p)
+    if not R: return True,{"verdict":"NO_FINDINGS"}
+    if sev(R)!="MODERATE": return False,{"verdict":"HIGH","reasons":["HIGH-severity rule: Joshua only"]}
+    if any(n in OBJECTIVE for n,_,_ in R): return False,{"verdict":"NOT_FIXED","reasons":["licence/source detector still fires: fix it, review cannot clear it"]}
+    if not os.path.exists(REVIEW) or not os.environ.get("OPENAI_API_KEY"): return False,{"verdict":"UNAVAILABLE","reasons":["no independent reviewer on box: escalate"]}
+    ctx="; ".join(f"rule {n} flag {f!r}" for n,f,_ in R)+" | fix made: "+fix
+    r=subprocess.run([sys.executable,REVIEW,p,ctx],capture_output=True,text=True,timeout=300)
+    try: v=json.loads(r.stdout.strip().splitlines()[-1])
+    except Exception: v={"verdict":"UNSURE","reasons":["unparseable reviewer output: "+r.stdout[-300:]+r.stderr[-300:]]}
+    ok=r.returncode==0 and v.get("verdict")=="SAFE"
+    if ok:
+        open(MC,"a").write(json.dumps({"ts":datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),"site":"snakewise.org","bot":"SnakeWise bot",
+          "title":title or os.path.basename(p),"rule":sorted(set(n for n,_,_ in R)),"fix":fix,"chatgpt_verdict":"SAFE: "+"; ".join(map(str,v.get("reasons",[])))[:500],
+          "sha256":sha(p),"file":os.path.relpath(p,ROOT) if os.path.abspath(p).startswith(ROOT) else p},ensure_ascii=False)+"\n")
+    return ok,v
 def txt(h): return re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",re.sub(r"<(script|style)[^>]*>.*?</\1>"," ",h,flags=re.S|re.I)))
 def sha(p): return hashlib.sha256(open(p,"rb").read()).hexdigest()
 def approved(p):
@@ -70,7 +108,7 @@ def hold(path,title,R,move=True):
     h=open(dst).read(); src=sorted(set(u for u in re.findall(r"href=\"(https?://[^\"]+)",h) if not any(d in u for d in OWN_DOMAINS)))[:20]
     line={"ts":datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),"site":"snakewise.org","bot":"SnakeWise bot","title":title,
           "flagged":"; ".join(f"[{n}] {f}" for n,f,_ in R),"rule":sorted(set(n for n,_,_ in R)),"sources":src,
-          "suggestion":"; ".join(sorted(set(s for _,_,s in R))),"draft_path":dst,"sha256":sha(dst),"status":"HOLD_REVIEW"}
+          "suggestion":"; ".join(sorted(set(s for _,_,s in R))),"severity":sev(R),"draft_path":dst,"sha256":sha(dst),"status":"HOLD_REVIEW"}
     open(Q,"a").write(json.dumps(line,ensure_ascii=False)+"\n"); return dst,line
 if __name__=="__main__":
     a=sys.argv[1:]
@@ -78,10 +116,15 @@ if __name__=="__main__":
         bad=0
         for p in a[1:]:
             R=check(p)
-            if R and not approved(p):
-                bad=1; print("HOLD_REVIEW",p); [print(f"  rule {n}: {f!r} - {s}") for n,f,s in R]
-            else: print("PASS" if not R else "PASS (Joshua-approved hash)",p)
+            if R and not approved(p) and not moderate_cleared(p,R):
+                bad=1; print("HOLD_REVIEW",sev(R),p); [print(f"  rule {n} [{'HIGH' if n in HIGH else 'MODERATE'}]: {f!r} - {s}") for n,f,s in R]
+            else: print("PASS" if not R else ("PASS (Joshua-approved hash)" if approved(p) else "PASS (MODERATE, ChatGPT-cleared hash)"),p)
         sys.exit(3 if bad else 0)
+    if a and a[0]=="moderate" and len(a)>=3:
+        ok,v=moderate_review(a[1],a[2],a[3] if len(a)>3 else None); print(json.dumps({"cleared":ok,**v}))
+        if not ok and check(a[1]) and not approved(a[1]):
+            d,l=hold(a[1],a[3] if len(a)>3 else os.path.basename(a[1]),check(a[1]),move=False); print("ESCALATED HOLD_REVIEW for Joshua:",d)
+        sys.exit(0 if ok else 3)
     if a and a[0]=="hold":
         R=check(a[1]) or [(0,"manual","held by bot judgement")]
         d,l=hold(a[1],a[2],R); print(json.dumps(l)); sys.exit(3)
