@@ -398,3 +398,9 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - No outreach, no spend, no heavy jobs.
 - Live verified by curl (page, species.html link, sitemap). IndexNow HTTP 200 (15 URLs).
 2026-10-26 16:22 | privacy.html: fixed 'no accounts or forms' meta wording, added not-sold/no-marketing + honeypot disclosure, dates 26 Oct (Joshua approved)
+
+## 2026-10-27 (daily SEO, 01:45 slot)
+- On-page: added a sourced "Beginner species at a glance" table to /pets.html (corn snake, ball python, California kingsnake, Kenyan sand boa; length and lifespan from Smithsonian's National Zoo, ADW and BGSU Herpetarium, checked 27 Oct). Last reviewed and dateModified bumped; sitemap lastmod 2026-10-27. Commit aa92558, live.
+- News post: /blog/global-snakebite-burden-2026-study.html on Ediriweera et al. 2026 PLOS Medicine (doi:10.1371/journal.pmed.1005201), with Kasturiratne et al. 2008 for comparison; disability figure labelled as the authors' assumption. No image. Blog index card + BlogPosting JSON-LD, sitemap, llms.txt updated. Commit 9c0c73c, live. Safety box, beacon, AdSense present.
+- IndexNow pinged for pets, new post, /blog/, sitemap, llms.txt.
+- Outreach paused (standing order); nothing sent or drafted. 38609 Horton Drive grep clean on site pages. No spend.
