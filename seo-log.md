@@ -409,3 +409,7 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - Published /blog/can-snakes-see-heat.html, "Can Snakes See Heat? How Pit Vipers Sense Infrared" (~1,200 words, Article with 11 citations + FAQPage + Breadcrumb JSON-LD, safety box, internal links to species, anatomy, habitats, safety, ID guide, shop, can-snakes-hear, sidewinders). Main source Gracheva et al. 2010 Nature doi:10.1038/nature08943; all 11 papers' abstracts read on PubMed. No image. Added to blog index, sitemap.xml, llms.txt, fact-reports.md. Group post skipped (Animal Sites chat no longer exists). No spend.
 
 - Live check: /blog/can-snakes-see-heat.html returned 200; IndexNow HTTP 200 (4 URLs).
+
+## 2026-10-27 21:10 London: credits AI disclosure + legal-hold severity tiers
+- credits/: removed the inaccurate "we do not use ... AI-generated images" line; now discloses that some illustrative images are AI-generated and captioned as such, with a table of the 11 img/ai files and the pages using them. Other credits unchanged. Joshua approved directly 27 Oct 21:03 London ("Reword the credits page to disclose the labelled AI images"); approvals.jsonl sha256 ad50a4ba6874500cfdc61aaed905460dc55f00247024d183a893cbc133a55730. Commit 5c8e02a; verified live; sitemap lastmod 2026-10-27; IndexNow pinged.
+- hold_check.py/new_post.py: severity tiers per RULE.md amendment (HIGH 1/2/6/8 Joshua-only; MODERATE 3/4/5/7 fix, then independent chatgpt_review.py, clearance logged to moderate-clearances.jsonl by sha256).
