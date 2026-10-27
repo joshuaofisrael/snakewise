@@ -1,0 +1,13 @@
+#!/bin/sh
+# SnakeWise legal-hold gate: blocks any push whose changed/added HTML fails hold_check (RULE.md 27 Oct 2026).
+# Install: cp _templates/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+cd "$(git rev-parse --show-toplevel)" || exit 1
+z=0000000000000000000000000000000000000000
+while read lref lsha rref rsha; do
+  [ "$lsha" = "$z" ] && continue
+  if [ "$rsha" = "$z" ]; then range="$lsha"; files=$(git ls-files '*.html'); else files=$(git diff --name-only --diff-filter=AM "$rsha" "$lsha" -- '*.html'); fi
+  files=$(echo "$files" | grep -v '^_templates/' | while read f; do [ -f "$f" ] && echo "$f"; done)
+  [ -z "$files" ] && continue
+  python3 _templates/hold_check.py check $files || { echo "PUSH BLOCKED: HOLD_REVIEW. Move held files out with: python3 _templates/hold_check.py hold FILE \"Title\" and revert the commit. Needs Joshua's approval of the exact sha256 in /workspace/content-review/approvals.jsonl."; exit 1; }
+done
+exit 0

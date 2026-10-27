@@ -15,4 +15,12 @@ if img: assert os.path.exists(os.path.join(root,"img/ai",img+".webp")), "missing
 else: t=re.sub(r'<figure class="photo ai">.*?</figure>',"",t,flags=re.S)
 for k,v in {"SLUG":slug,"TITLE":html.escape(title),"DESCRIPTION":html.escape(desc),"LEAD":html.escape(lead),"BODY":open(bodyf).read(),"DATE_LONG":f"{d.day} {d:%B %Y}","DATE_APA":f"{d.year}, {d:%B} {d.day}","DATE_MLA":f"{d.day} {M[d.month-1]} {d.year}","DATE_CHI":f"{d:%B} {d.day}, {d.year}"}.items(): t=t.replace("{{"+k+"}}",v)
 assert "©" not in t and not any(b in t for b in ("Jos"+"hua","Ventures "+"LLC")) and "/contact.html" in t and "/disclaimer.html" in t and "/terms.html" in t and "/privacy.html" in t
-os.makedirs(os.path.join(root,"blog"),exist_ok=True); open(os.path.join(root,"blog",slug+".html"),"w").write(t); print("blog/"+slug+".html")
+# Legal-hold gate (RULE.md, 27 Oct 2026): check BEFORE anything enters the published tree.
+sys.path.insert(0,os.path.join(root,"_templates")); import hold_check as hc
+os.makedirs(hc.DR,exist_ok=True); tmp=os.path.join(hc.DR,slug+".html"); open(tmp,"w").write(t)
+R=hc.check(tmp)
+if R and not hc.approved(tmp):
+    d,l=hc.hold(tmp,title,R); print("HOLD_REVIEW: NOT published. Draft:",d)
+    for n,f,s in R: print(f"  rule {n}: {f!r} - {s}")
+    sys.exit(3)
+os.makedirs(os.path.join(root,"blog"),exist_ok=True); os.replace(tmp,os.path.join(root,"blog",slug+".html")); print("PASS blog/"+slug+".html")
