@@ -419,3 +419,7 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - News post: /blog/krait-cobra-bite-rapid-test-study.html on Thumtecho et al. 2026 Scientific Reports (open access, 17 Oct 2026), a prototype nanobody strip test for krait α-bungarotoxin; framed as lab proof of concept, spiked samples only, competing interests noted, bite emergency note. Abstract and declarations opened. No image. hold_check PASS via new_post.py. Blog index card + BlogPosting JSON-LD, sitemap, llms.txt updated.
 - Outreach paused; nothing sent or drafted. 38609 Horton Drive and owner/LLC grep clean outside legal pages. No spend.
 - Live verified (200); IndexNow pinged (12 URLs). Commit 8354ab9.
+
+## 2026-10-28 (daily snake article, 10:45 slot)
+- Published /blog/why-do-snakes-flick-their-tongues.html ("Why Do Snakes Flick Their Tongues? How the Forked Tongue Works"), ~1,150 words + FAQ, Article (9 citations) + FAQPage JSON-LD, internal links to anatomy, venom, safety, ID guide, species, habitats, myths, shop and 3 related posts. No image. Main source Schwenk 1994 Science doi:10.1126/science.263.5153.1573; all 9 sources checked against PubMed abstracts.
+- hold_check PASS (new_post.py + pre-push). Blog index, sitemap, llms.txt updated. Commit 23e9d9e, live 200, IndexNow 200 (2 URLs). Group post handed to parent (chat no longer exists). No spend.
