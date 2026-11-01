@@ -423,3 +423,5 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 ## 2026-10-28 (daily snake article, 10:45 slot)
 - Published /blog/why-do-snakes-flick-their-tongues.html ("Why Do Snakes Flick Their Tongues? How the Forked Tongue Works"), ~1,150 words + FAQ, Article (9 citations) + FAQPage JSON-LD, internal links to anatomy, venom, safety, ID guide, species, habitats, myths, shop and 3 related posts. No image. Main source Schwenk 1994 Science doi:10.1126/science.263.5153.1573; all 9 sources checked against PubMed abstracts.
 - hold_check PASS (new_post.py + pre-push). Blog index, sitemap, llms.txt updated. Commit 23e9d9e, live 200, IndexNow 200 (2 URLs). Group post handed to parent (chat no longer exists). No spend.
+
+- 2026-11-01 (PA batch): published /blog/which-countries-have-no-snakes.html (gap 13); added to blog index, sitemap, llms.txt.
