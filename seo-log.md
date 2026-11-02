@@ -425,3 +425,11 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 - hold_check PASS (new_post.py + pre-push). Blog index, sitemap, llms.txt updated. Commit 23e9d9e, live 200, IndexNow 200 (2 URLs). Group post handed to parent (chat no longer exists). No spend.
 
 - 2026-11-01 (PA batch): published /blog/which-countries-have-no-snakes.html (gap 13); added to blog index, sitemap, llms.txt.
+
+## 2026-11-02 (PA batch, snakewise.org brief)
+- Published /blog/why-and-how-do-snakes-shed-their-skin.html, "Why and How Do Snakes Shed Their Skin? Ecdysis Explained" (gap 4), ~1,700 words incl. quick facts/FAQ/sources, Article (9 citations) + FAQPage + Breadcrumb JSON-LD (all parse OK), safety box, beacon, AdSense present. All 9 peer-reviewed DOIs checked via Crossref; Pennsylvania Fish and Boat Commission used as a supporting, non-peer-reviewed source for the rattle-segment myth only.
+- Images (Joshua's 2 Nov photoreal AI rule): two new AI-generated, photorealistic images — hero `img/ai/post-shed-corn-snake.webp` (corn snake mid-shed on bark) and a second in-body image `img/ai/post-shed-eye-opaque.webp` (macro of the cloudy pre-shed "blue-eye" spectacle). Both WebP, 1152x864, under 150 KB, no people/logos/text, "AI-generated image" caption. Recorded in img/ai/licence-record.json and disclosed on /credits/. The hero is also used as the new post's blog-index card thumbnail (owner's rule: hero doubles as the front-page/index card thumbnail).
+- Internal links: /anatomy.html, /glossary.html#ecdysis (x2), /pets.html (x2), /myths.html + /myths.html#rattles, /species.html, /games/shed-shuffle/, /blog/how-long-can-a-snake-go-without-eating.html — all 7 brief pillar links present.
+- Blog index card + BlogPosting JSON-LD (also backfilled the missing which-countries-have-no-snakes.html entry), sitemap.xml (new URL + /blog/, /llms.txt, /credits/ lastmod bumped), llms.txt, fact-reports.md updated.
+- hold_check PASS (new_post.py + standalone check on final file + blog/index.html). No HIGH/MODERATE flags. No spend, no outreach (standing pause).
+- Live verified 200; IndexNow pinged for the new post + /blog/ + sitemap.xml + llms.txt.
