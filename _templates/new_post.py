@@ -14,6 +14,12 @@ import re
 if img: assert os.path.exists(os.path.join(root,"img/ai",img+".webp")), "missing img/ai/"+img+".webp"; t=t.replace("{{IMAGE}}",img).replace("{{IMAGE_ALT}}",html.escape(alt,quote=True))
 else: t=re.sub(r'<figure class="photo ai">.*?</figure>',"",t,flags=re.S)
 for k,v in {"SLUG":slug,"TITLE":html.escape(title),"DESCRIPTION":html.escape(desc),"LEAD":html.escape(lead),"BODY":open(bodyf).read(),"DATE_LONG":f"{d.day} {d:%B %Y}","DATE_APA":f"{d.year}, {d:%B} {d.day}","DATE_MLA":f"{d.day} {M[d.month-1]} {d.year}","DATE_CHI":f"{d:%B} {d.day}, {d.year}"}.items(): t=t.replace("{{"+k+"}}",v)
+# Auto-add FAQPage JSON-LD from the body's own visible FAQ section (if any), so it can't be forgotten.
+sys.path.insert(0,os.path.join(root,"_templates")); import faq_jsonld as fq
+faq_data=fq.faqpage_jsonld(t)
+if faq_data:
+    faq_tag='<script type="application/ld+json">'+json.dumps(faq_data,ensure_ascii=False)+"</script>"
+    t=t.replace('<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList"',faq_tag+'<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList"',1)
 assert "©" not in t and not any(b in t for b in ("Jos"+"hua","Ventures "+"LLC")) and "/contact.html" in t and "/disclaimer.html" in t and "/terms.html" in t and "/privacy.html" in t
 # Legal-hold gate (RULE.md, 27 Oct 2026): check BEFORE anything enters the published tree.
 sys.path.insert(0,os.path.join(root,"_templates")); import hold_check as hc
