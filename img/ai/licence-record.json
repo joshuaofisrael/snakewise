@@ -53,5 +53,15 @@
   "licence": "original",
   "origin": "generated for SnakeWise by the SnakeWise bot (image-generation tool); no third-party content",
   "use": "illustration only, captioned as AI-generated"
+ },
+ "/img/ai/post-shed-corn-snake.webp": {
+  "licence": "original",
+  "origin": "generated for SnakeWise by the SnakeWise bot (image-generation tool); no third-party content",
+  "use": "illustration only, captioned as AI-generated; photorealistic, no real people, no logos, no text"
+ },
+ "/img/ai/post-shed-eye-opaque.webp": {
+  "licence": "original",
+  "origin": "generated for SnakeWise by the SnakeWise bot (image-generation tool); no third-party content",
+  "use": "illustration only, captioned as AI-generated; photorealistic, no real people, no logos, no text"
  }
 }
