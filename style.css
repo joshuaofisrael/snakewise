@@ -62,3 +62,10 @@ main>*+*{scroll-margin-top:1rem}
 @media (prefers-reduced-motion:reduce){figure.photo.ai img,.tile,.btn{transition:none}figure.photo.ai img:hover,.tile:hover,.btn:hover{transform:none}}
 
 .guidance-note{border-left:5px solid #b45309;background:#fffbeb;color:#1c1917;padding:.6rem .9rem;border-radius:6px;margin:1rem 0;line-height:1.5}
+
+/* style-pass 2026-11-05 */
+:focus-visible{outline:3px solid #84cc16;outline-offset:3px}
+main p,article p{max-width:68ch;line-height:1.7}
+.card img,figure img,.tile img{aspect-ratio:3/2;object-fit:cover;width:100%;height:auto;display:block}
+footer{display:flex;flex-wrap:wrap;gap:.4rem 1rem;justify-content:center}
+@media(max-width:640px){main{padding:1rem .85rem}.grid{grid-template-columns:1fr}}
