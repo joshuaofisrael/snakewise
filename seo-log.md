@@ -437,3 +437,6 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 ## 2026-11-02 — SEO fix: missing FAQPage JSON-LD
 - Audit found one page with a visible FAQ (question H3s + answers) but no matching FAQPage JSON-LD: /blog/which-countries-have-no-snakes.html (missed in the 1 Nov publish batch). Added, generated verbatim from the page's own 4 FAQ Q&As; no visible text changed. JSON-LD parses; site-wide check (133 ld+json blocks across 60 pages) still 0 errors.
 - Root cause fix (_templates/): new _templates/faq_jsonld.py reads a page's visible FAQ section (the `<h2>...FAQ...</h2>` + `<h3>question</h3><p>answer</p>` pattern already used everywhere) and builds the matching FAQPage JSON-LD. _templates/new_post.py now calls it automatically, so future posts with an FAQ section always get FAQPage without a manual step. `faq_jsonld.py check FILE...` can also audit any pages for a visible FAQ missing structured data.
+
+## 2026-11-06 — Evergreen: Do snakes have necks?
+- Published /blog/do-snakes-have-necks.html (datePublished 2026-11-06) with 2 AI figures (post-shed-corn-snake, post-snake-eye-macro), blog index card, sitemap, llms.txt.
