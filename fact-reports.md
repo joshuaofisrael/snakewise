@@ -25,3 +25,5 @@
 | 2026-11-05 | /blog/can-snakes-swim.html | Every tested snake can swim (525 spp documented); lateral undulation; semi-aquatic often fastest vs sea snakes; temp affects speed/dives | Segall et al. 2024 Zoology doi:10.1016/j.zool.2024.126223; Zool Res 2025; JEB 2016 sea snake dives |
 
 Ideas not yet covered: Indian egg-eater (Elachistodon), green anaconda (deeper: northern vs southern split, mating balls), black mamba (e.g. 'How fast is a black mamba?'), garter snake cold tolerance (overwintering/freeze tolerance). Reticulated python / longest snake, pit viper heat sensing, tongue-flicking, no-snake countries and shedding/ecdysis now covered.
+
+| 2026-11-06 | /blog/do-snakes-have-necks.html | Snakes have a neck region of the vertebral column behind the head; gradual neck-to-trunk transition; high vertebra counts; Hox patterning | Head & Polly 2015; related vertebral anatomy sources |
