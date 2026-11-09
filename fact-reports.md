@@ -27,3 +27,4 @@
 Ideas not yet covered: Indian egg-eater (Elachistodon), green anaconda (deeper: northern vs southern split, mating balls), black mamba (e.g. 'How fast is a black mamba?'), garter snake cold tolerance (overwintering/freeze tolerance). Reticulated python / longest snake, pit viper heat sensing, tongue-flicking, no-snake countries and shedding/ecdysis now covered.
 
 | 2026-11-06 | /blog/do-snakes-have-necks.html | Snakes have a neck region of the vertebral column behind the head; gradual neck-to-trunk transition; high vertebra counts; Hox patterning | Head & Polly 2015; related vertebral anatomy sources |
+| 2026-11-09 | /blog/do-snakes-have-eyelids.html | Snakes lack movable eyelids; spectacle = transparent fused eyelids over cornea, shed with skin; eyes cloudy when ecdysis imminent; retained spectacles should never be forced off; abscesses below the spectacle | Merck Veterinary Manual (4 pages) |
