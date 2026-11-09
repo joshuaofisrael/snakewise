@@ -440,3 +440,6 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 
 ## 2026-11-06 — Evergreen: Do snakes have necks?
 - Published /blog/do-snakes-have-necks.html (datePublished 2026-11-06) with 2 AI figures (post-shed-corn-snake, post-snake-eye-macro), blog index card, sitemap, llms.txt.
+
+## 2026-11-09 — Evergreen: Do snakes have eyelids?
+- Published /blog/do-snakes-have-eyelids.html (ChatGPT draft, light edits) with 2 new AI figures (post-corn-snake-eye, post-shed-skin-eyecaps), blog index card, sitemap, llms.txt, licence records.
