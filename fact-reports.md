@@ -28,3 +28,4 @@ Ideas not yet covered: Indian egg-eater (Elachistodon), green anaconda (deeper: 
 
 | 2026-11-06 | /blog/do-snakes-have-necks.html | Snakes have a neck region of the vertebral column behind the head; gradual neck-to-trunk transition; high vertebra counts; Hox patterning | Head & Polly 2015; related vertebral anatomy sources |
 | 2026-11-09 | /blog/do-snakes-have-eyelids.html | Snakes lack movable eyelids; spectacle = transparent fused eyelids over cornea, shed with skin; eyes cloudy when ecdysis imminent; retained spectacles should never be forced off; abscesses below the spectacle | Merck Veterinary Manual (4 pages) |
+| 2026-11-11 | /blog/how-many-species-of-snakes-are-there.html | Reptile Database lists 4,252 snake species (11 Nov 2026), 8,042 lizard and 365 turtle species; counts change with new descriptions and taxonomic revision | The Reptile Database (3 pages) |

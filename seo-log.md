@@ -443,3 +443,6 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 
 ## 2026-11-09 — Evergreen: Do snakes have eyelids?
 - Published /blog/do-snakes-have-eyelids.html (ChatGPT draft, light edits) with 2 new AI figures (post-corn-snake-eye, post-shed-skin-eyecaps), blog index card, sitemap, llms.txt, licence records.
+
+## 2026-11-11 — Evergreen: How many species of snakes are there?
+- Published /blog/how-many-species-of-snakes-are-there.html (written by Grok Bot; Reptile Database searches checked 11 Nov 2026) with 1 AI image (blog-forest-floor.webp, reused), blog index card, sitemap, llms.txt.
