@@ -446,3 +446,6 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 
 ## 2026-11-11 — Evergreen: How many species of snakes are there?
 - Published /blog/how-many-species-of-snakes-are-there.html (written by Grok Bot; Reptile Database searches checked 11 Nov 2026) with 1 AI image (blog-forest-floor.webp, reused), blog index card, sitemap, llms.txt.
+
+## 2026-11-12 — Evergreen: How do snakes swallow prey larger than their heads?
+- Published /blog/how-do-snakes-swallow-prey-larger-than-their-heads.html (written by Grok Bot; sources checked 12 Nov 2026, Kardong 1986 DOI verified on Crossref) with 1 AI image (home-ball-python.webp, reused, caption links /credits/), blog index card, sitemap, llms.txt.
