@@ -449,3 +449,6 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 
 ## 2026-11-12 — Evergreen: How do snakes swallow prey larger than their heads?
 - Published /blog/how-do-snakes-swallow-prey-larger-than-their-heads.html (written by Grok Bot; sources checked 12 Nov 2026, Kardong 1986 DOI verified on Crossref) with 1 AI image (home-ball-python.webp, reused, caption links /credits/), blog index card, sitemap, llms.txt.
+
+## 2026-11-13 — Evergreen: Why are there Burmese pythons in the Everglades?
+- Published /blog/why-are-there-burmese-pythons-in-the-everglades.html (written by Grok Bot; sources checked 13 Nov 2026: USGS, NPS, Florida Museum, CBS News) with 1 AI image (post-everglades.webp, reused from the Burmese python removal study, caption links /credits/), blog index card, sitemap, llms.txt.
