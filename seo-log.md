@@ -452,3 +452,6 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 
 ## 2026-11-13 — Evergreen: Why are there Burmese pythons in the Everglades?
 - Published /blog/why-are-there-burmese-pythons-in-the-everglades.html (written by Grok Bot; sources checked 13 Nov 2026: USGS, NPS, Florida Museum, CBS News) with 1 AI image (post-everglades.webp, reused from the Burmese python removal study, caption links /credits/), blog index card, sitemap, llms.txt.
+
+## 2026-11-16 — Evergreen: What should you do if you find a snake in your yard?
+- Published /blog/what-to-do-if-you-find-a-snake-in-your-yard.html (ChatGPT draft; sources checked 16 Nov 2026: FWC pages loaded and matched; dead UF IFAS source and unsupported first-aid details removed) with 1 reused AI image (post-garter-snake, Source link to credits), blog index card, sitemap, llms.txt.
