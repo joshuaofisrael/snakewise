@@ -458,3 +458,12 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 
 ## 2026-11-18 — Evergreen: Are snakes cold-blooded?
 - Published /blog/are-snakes-cold-blooded.html (sources checked 18 Nov 2026: Smithsonian National Zoo, San Diego Zoo Wildlife Alliance, Australian Museum, Montana FWP, Washington DFW; all HTTP 200) with 1 reused AI image (img/ai/species-header-rock.webp, Source link to /credits/), blog index card, homepage card, sitemap, llms.txt.
+
+## 2026-11-18 — Image policy page (global rule, priority-moves 10:03 AM ET batch)
+- Covered: https://snakewise.org/image-policy/ | Image policy: explains AI-generated illustrative photos, real CC0/CC BY/public-domain wildlife photos credited on /credits/, and original in-house diagrams. Wording adapted from the JI Ventures image-policy template, renamed and corrected for SnakeWise's own image mix (unlike the reference site, SnakeWise also uses real licensed photos).
+- Same header/footer/CF beacon/GA4 as every other page; no analytics touched.
+- Added "Image policy" to the footer nav on all 70 HTML pages (site-wide, incl. game.html's slightly different footer and noindex utility pages).
+- Repointed every AI-generated photo caption's Source link (added one where missing) from /credits/ to /image-policy/; every real CC-photo caption keeps its existing "Photo credits" link to /credits/ and gained an added "Image policy" link, so every photo on the site now links to /image-policy/ without losing per-photo licence credit.
+- /credits/ gained one cross-link sentence to /image-policy/ (lastmod bumped for that content change).
+- sitemap.xml: added /image-policy/ (self-canonical, lastmod 2026-11-18). llms.txt updated. _templates/blog-post.html updated so future posts default to the same footer link + Source link.
+- hold_check.py PASS on all 69 changed .html files (exit 0, no HOLD_REVIEW). PR #12, fast-forwarded straight to main (no merge tool available; GitHub auto-marked the PR merged once the commit landed on main). Live verified 200 on /image-policy/, /credits/, /, /blog/, /sitemap.xml, /terms.html, /privacy.html, /disclaimer.html, /llms.txt. IndexNow pinged for /image-policy/ and /credits/ → HTTP 200.
