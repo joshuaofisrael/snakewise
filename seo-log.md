@@ -455,3 +455,6 @@ Next: Burmese python card on species.html (verified, cited); sourced beginner sp
 
 ## 2026-11-16 — Evergreen: What should you do if you find a snake in your yard?
 - Published /blog/what-to-do-if-you-find-a-snake-in-your-yard.html (ChatGPT draft; sources checked 16 Nov 2026: FWC pages loaded and matched; dead UF IFAS source and unsupported first-aid details removed) with 1 reused AI image (post-garter-snake, Source link to credits), blog index card, sitemap, llms.txt.
+
+## 2026-11-18 — Evergreen: Are snakes cold-blooded?
+- Published /blog/are-snakes-cold-blooded.html (sources checked 18 Nov 2026: Smithsonian National Zoo, San Diego Zoo Wildlife Alliance, Australian Museum, Montana FWP, Washington DFW; all HTTP 200) with 1 reused AI image (img/ai/species-header-rock.webp, Source link to /credits/), blog index card, homepage card, sitemap, llms.txt.
