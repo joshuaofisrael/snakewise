@@ -43,7 +43,7 @@ The content is general education, not medical advice or a field identification k
 - [How do sea snakes breathe through their skin?](https://snakewise.org/blog/how-do-sea-snakes-breathe-through-their-skin.html): yellow-bellied sea snake (Hydrophis platurus) cutaneous respiration — skin supplies up to 33% of resting O2 and releases most CO2; dives to 50 m for up to 213 min; still needs its lung and fresh rainwater (2026-10-15)
 - [Can snakes hear?](https://snakewise.org/blog/can-snakes-hear.html): snakes have no ears or eardrums but hear low sounds and vibrations through the jaw, quadrate and columella to the inner ear; royal pythons most sensitive at 80 to 160 Hz, rattlesnakes respond to airborne 200 to 400 Hz tones, and Australian genera react differently to sound (2026-10-13)
 - [Which countries have no snakes?](https://snakewise.org/blog/which-countries-have-no-snakes.html): Ireland, New Zealand, Iceland and Greenland have no native land snakes because of cold climate and isolation; New Zealand gets occasional non-resident sea snakes and kraits
-- [Paradise flying snake: how a snake with no wings glides](https://snakewise.org/blog/paradise-flying-snake.html): range, size, diet, and how Chrysopelea paradisi jumps, flattens and undulates to glide (2026-10-08)
+- [Paradise flying snake: how a snake with no wings glides](https://snakewise.org/blog/paradise-flying-snake.html): mean 10.1 m glide from a 9.62 m perch (Socha et al. 2005, re-checked 20 Nov 2026); J-loop jump; flatten to about twice resting width; undulation is two waves at a 90 degree phase gap (Yeaton et al. 2020)
 
 ## Tools
 - [Venomous or not? ID guide by region](https://snakewise.org/venomous-or-not.html): venomous snakes and harmless lookalikes in North America, UK and Europe, Australia, South Asia, Sub-Saharan Africa and Latin America
@@ -68,6 +68,7 @@ The content is general education, not medical advice or a field identification k
 - [The Slither Game](https://snakewise.org/game.html): an original browser snake game
 
 ## About & legal
+- [Editorial policy](https://snakewise.org/editorial-policy.html): how the SnakeWise editorial team chooses sources, dates checks, handles snake-safety claims and corrects errors (2026-11-20)
 - [About SnakeWise](https://snakewise.org/about.html): what the site covers, how facts are sourced, and where to find legal information
 - [Contact SnakeWise](https://snakewise.org/contact.html): contact form (name, email, message) for corrections, questions and topic suggestions
 - [Terms of Use](https://snakewise.org/terms.html): educational information only, no warranties, Florida law
