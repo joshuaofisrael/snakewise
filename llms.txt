@@ -66,7 +66,6 @@ The content is general education, not medical advice or a field identification k
 
 ## Optional
 - [The Slither Game](https://snakewise.org/game.html): an original browser snake game
-- [Snake gear shop](https://snakewise.org/shop.html): coming soon; no products are available yet
 
 ## About & legal
 - [About SnakeWise](https://snakewise.org/about.html): what the site covers, how facts are sourced, and where to find legal information
