@@ -20,7 +20,10 @@ faq_data=fq.faqpage_jsonld(t)
 if faq_data:
     faq_tag='<script type="application/ld+json">'+json.dumps(faq_data,ensure_ascii=False)+"</script>"
     t=t.replace('<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList"',faq_tag+'<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList"',1)
-assert "©" not in t and not any(b in t for b in ("Jos"+"hua","Ventures "+"LLC")) and "/contact.html" in t and "/disclaimer.html" in t and "/terms.html" in t and "/privacy.html" in t
+assert "©" not in t and not any(b in t for b in ("Jos"+"hua","Ventures "+"LLC")) and "/contact.html" in t and "/disclaimer.html" in t and "/terms.html" in t and "/privacy.html" in t and "/editorial-policy.html" in t
+if t.count('<nav class="next-reads"') < 2:
+    print("HOLD: body needs two next-reads blocks (mid-article and end), each with 3-4 related thumbnail links")
+    sys.exit(3)
 # Legal-hold gate (RULE.md, 27 Oct 2026): check BEFORE anything enters the published tree.
 sys.path.insert(0,os.path.join(root,"_templates")); import hold_check as hc
 os.makedirs(hc.DR,exist_ok=True); tmp=os.path.join(hc.DR,slug+".html"); open(tmp,"w").write(t)
